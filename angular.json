@@ -78,6 +78,7 @@
               "i18nMissingTranslation": "error"
             },
             "development": {
+              "localize": ["pt"],
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
