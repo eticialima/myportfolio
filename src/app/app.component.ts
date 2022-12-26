@@ -1,5 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, LOCALE_ID, Inject } from '@angular/core';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
+interface Locale {
+  localeCode: string;
+  label: string;
+}
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,5 +13,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'myportfolio';
 
-  constructor( ) {  }
+  constructor(@Inject(LOCALE_ID) public locale: string, private router: Router) {
+    console.log('locale', locale); 
+   }
 }

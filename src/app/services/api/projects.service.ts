@@ -18,11 +18,11 @@ export interface PortfolioItems {
 export class ProjectsService {
 
   public getJSON(): Observable<any> {
-		return this.http.get("../../../assets/json/projects.json")
+		return this.http.get("/assets/json/projects.json")
 	}
 
   public getCourseJSON(): Observable<any> {
-		return this.http.get("../../../assets/json/courses.json")
+		return this.http.get("/assets/json/courses.json")
 	}
 
   constructor(private http: HttpClient) {
