@@ -22,14 +22,6 @@
 					<a class="link-navbar" (click)="contact()" i18n>Contato</a>
 				</li>
 			</ul>
-		</div>
-    <select (ngModel)="locales" (change)="onChangeLang($event)"> # adicionar
-      <option
-        *ngFor="let language of locales"
-        [value]="language.code"
-        [selected]="language.code === locale">
-        {{language.label}}
-      </option>
-    </select>
+		</div> 
 	</div>
 </nav>
