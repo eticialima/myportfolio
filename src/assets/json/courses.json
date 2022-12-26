@@ -1,0 +1,11 @@
+[
+	{
+		"ID": 1,
+		"name": "Udemy: Sistema Q&A Autoatendimento inteligente para empresa",
+		"image": "/img-3.jpg",
+		"label": "Django",
+		"description": "Mini Sistema Q&A (forum) de perguntas e respostas simples feito com Python/Django",
+		"path1": "https://youtu.be/RXNQFz220wI",
+		"path2": "https://www.udemy.com/course/pythondjango-desenvolvimento-sistema-de-faq-autoatendimento-empresas/?referralCode=12A76F6BB2870DA9C11A"
+	}
+]

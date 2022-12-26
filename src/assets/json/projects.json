@@ -1,0 +1,65 @@
+[
+	{
+		"ID": 1,
+		"name": "Django Sistema Inteligente QA Forum (code)",
+		"image": "/img-1.jpg",
+		"label": "Django",
+		"description": "Django Sistema Inteligente QA Forum (code)",
+		"path1": "https://youtu.be/f4FY0Ccu8FY",
+		"path2": "https://eticia.gumroad.com/l/django-system-qa-forum-app"
+	},
+	{
+		"ID": 2,
+		"name": "Django Blog completo com várias funcionalidades",
+		"image": "/img-5.jpg",
+		"label": "Django",
+		"description": "Django Blog completo com várias funcionalidades",
+		"path1": "https://youtu.be/stFbzz_4f4w",
+		"path2": "https://eticia.gumroad.com/l/django-system-portal-blog-app"
+	},
+  {
+		"ID": 3,
+		"name": "Django Comentários (AJAX)",
+		"image": "/img-8.jpg",
+		"label": "Django",
+		"description": "Django Comentários (AJAX)",
+		"path1": "https://eticia.gumroad.com/l/django-comments-in-ajax-app",
+		"path2": "https://eticia.gumroad.com/l/django-comments-in-ajax-app"
+	},
+  {
+		"ID": 4,
+		"name": "Sistema de gerenciamento manuais de carros",
+		"image": "/img-7.jpg",
+		"label": "Django",
+		"description": "Sistema de gerenciamento manuais de carros",
+		"path1": "https://eticia.gumroad.com/l/django-system-car-manuals-app",
+		"path2": "https://eticia.gumroad.com/l/django-system-car-manuals-app"
+	},
+	{
+		"ID": 5,
+		"name": "Sistema de cadastro Mybook",
+		"image": "/img-2.jpg",
+		"label": "Django",
+		"description": "Sistema de cadastro Mybook utilizando formset factory com javascript.",
+		"path1": "https://eticia.gumroad.com/l/django-system-mybook-app",
+		"path2": "https://eticia.gumroad.com/l/django-system-mybook-app"
+	},
+  {
+		"ID": 6,
+		"name": "Wix Velo Menu Tags Filters (Code)",
+		"image": "/img-4.jpg",
+		"label": "Wix",
+		"description": "Wix Velo Menu Tags Filters (Code)",
+		"path1": "https://www.youtube.com/watch?v=qg_953h1pTI",
+		"path2": "https://eticia.gumroad.com/l/wix-velo-menu-tags-filters-code"
+	},
+	{
+		"ID": 7,
+		"name": "Django Gerenciador de Formulário com Questões Customizadas",
+		"image": "/img-6.jpg",
+		"label": "Django",
+		"description": "Django Gerenciador de Formulário com Questões Customizadas",
+		"path1": "https://www.youtube.com/watch?v=R5SpPwQlY_s",
+		"path2": "https://eticia.gumroad.com/l/django-form-questionnaire-app"
+	}
+]

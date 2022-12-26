@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2971107802491286295" datatype="html">
+        <source>Nenhum item</source>
+        <target>pas d'objet</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cards/cards.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5886792202999625261" datatype="html">
+        <source>Demo</source>
+        <target>Démo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cards/cards.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="882765422035288982" datatype="html">
+        <source>Quero!</source>
+        <target>Je veux!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cards/cards.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6358438378700508168" datatype="html">
+        <source>Siga-me nas redes sociais</source>
+        <target>Suivez-moi sur les réseaux sociaux</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1926157928707021468" datatype="html">
+        <source>Inicio</source>
+        <target>Démarrer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/top-menu/top-menu.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5489968893403305908" datatype="html">
+        <source>Sobre</source>
+        <target>Sur</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/top-menu/top-menu.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5493241626507351260" datatype="html">
+        <source>Projetos</source>
+        <target>Projets</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/top-menu/top-menu.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3944932287755934939" datatype="html">
+        <source>Cursos</source>
+        <target>Cours</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/top-menu/top-menu.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course/course.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1236061678414703716" datatype="html">
+        <source>Contato</source>
+        <target>Contacter</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/top-menu/top-menu.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4793849362470117998" datatype="html">
+        <source>Sobre Mim!</source>
+        <target>Sur moi!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4834779890005647273" datatype="html">
+        <source>Apaixonada por Desenvolvimento e Computação Gráfica 3D</source>
+        <target>Passionné par le développement 3D et l'infographie</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1226221576771497141" datatype="html">
+        <source>Ei! Meu nome é Letícia Lima, atualmente trabalho com desenvolvimento de sistemas com Python e Django Framework. Nos tempos livre trabalho como freelancer em projetos de Desenvolvimento Web.</source>
+        <target>Hé! Je m'appelle Letícia Lima, je travaille actuellement dans le développement de systèmes avec Python et Django Framework. Pendant mon temps libre, je travaille en tant que freelance sur des projets de développement Web.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8602935914675320190" datatype="html">
+        <source>Sou formada em Engenharia da Computação com foco em programação e sistemas, possuo uma visão ampla e sólida de ferramentas e conceitos. Tenho experiência em Python, Django e Angular, programando diversos tipos de aplicações Web.</source>
+        <target>Je suis diplômé en génie informatique avec une spécialisation en programmation et systèmes, j'ai une vision large et solide des outils et des concepts. J'ai de l'expérience en Python, Django et Angular, en programmant différents types d'applications Web.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8416850905199715385" datatype="html">
+        <source>Fique a vontade para conhecer meus projetos.</source>
+        <target>N'hésitez pas à découvrir mes projets.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6105197815043623752" datatype="html">
+        <source>Contato!</source>
+        <target>Contacter!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3526278813487230467" datatype="html">
+        <source>Envie uma mensagem para mim.</source>
+        <target>Envoyez-moi un message.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3941068676676218392" datatype="html">
+        <source>Diversos Cursos com ênfase em programação direto da udemy com direito a certificado.</source>
+        <target>Plusieurs cours mettant l'accent sur la programmation directement depuis udemy avec droit à un certificat.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course/course.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5218714191038256300" datatype="html">
+        <source>Sobre Mim</source>
+        <target>Sur moi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5629651731474495932" datatype="html">
+        <source>Diversos projetos com ênfase em desenvolvimento de software. E outros tipos de projetos.</source>
+        <target>Plusieurs projets axés sur le développement de logiciels. Et d'autres types de projets.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/portfolio/portfolio.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4006589384097306068" datatype="html">
+        <source>Projeto TCC2020</source>
+        <target>Projet TCC2020</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2851216516859730419" datatype="html">
+        <source>Sistema de Controle de Acesso por Reconhecimento Facial</source>
+        <target>Système de contrôle d'accès par reconnaissance faciale</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6382776950369228752" datatype="html">
+        <source>Missão do projeto</source>
+        <target>mission de projet</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3110179062103078776" datatype="html">
+        <source>A missão do projeto objetiva desenvolver um sistema de baixo custo automatizado para controle de acesso utilizando reconhecimento facial. Como parâmetro de entrada, o sistema recebe uma imagem de um funcionário capturada via webcam retornando como saída uma resposta do reconhecimento das faces previamente cadastradas no banco de dados. O sistema consiste em três partes: detecção facial, extração de características e reconhecimento. A detecção facial foi implementada usando-se o algoritmo de Rede Neural Convolucional, que tem como base o aprendizado profundo que pode captar uma imagem de entrada e atribuir importâncias como pesos e vieses a vários aspectos para a extração. Além disso, foi utilizado os conceitos de Deep Learning, que junto com a função ConvNet é capaz de reduzir as imagens extraídas para uma forma mais fácil de processar o treinamento, sem perder qualidade e boa previsão. </source>
+        <target>Le projet a pour mission de développer un système automatisé à faible coût de contrôle d'accès par reconnaissance faciale. En paramètre d'entrée, le système reçoit une image d'un employé capturée via webcam, renvoyant en sortie une réponse issue de la reconnaissance des visages précédemment enregistrés dans la base de données. Le système se compose de trois parties : la détection de visage, l'extraction de caractéristiques et la reconnaissance. La détection des visages a été mise en œuvre à l'aide de l'algorithme Convolutional Neural Network, qui est basé sur un apprentissage en profondeur capable de capturer une image d'entrée et d'attribuer une importance telle que des poids et des biais à divers aspects pour l'extraction. De plus, des concepts d'apprentissage en profondeur ont été utilisés, qui, avec la fonction ConvNet, sont capables de réduire les images extraites à un moyen plus simple de traiter la formation, sans perte de qualité et de bonne prédiction.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2508690414628652290" datatype="html">
+        <source>Protótipo funcionando PC</source>
+        <target>Prototype de travail sur PC</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4020739067257656681" datatype="html">
+        <source>Para o reconhecimento de faces foi desenvolvido um código que realiza o processamento de extração das faces através de uma câmera digital. O método utilizado é baseado na identificação dos atributos faciais do usuário. Foi utilizado Rede Neural pela facilidade que a rede tem de receber informações e compará-las com outras informações em um tempo muito curto. Nesse vídeo mostro para vocês o protótipo funcionamento no PC. </source>
+        <target>Pour la reconnaissance des visages, un code a été développé qui effectue l'extraction des visages à travers un appareil photo numérique. La méthode utilisée est basée sur l'identification des attributs faciaux de l'utilisateur. Le réseau de neurones a été utilisé en raison de la capacité du réseau à recevoir des informations et à les comparer avec d'autres informations en très peu de temps. Dans cette vidéo, je vous montre le prototype fonctionnel sur PC.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">25,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6769996290426585770" datatype="html">
+        <source>Diagrama Fluxo dos dados</source>
+        <target>Diagramme de flux de données</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4230443839344729983" datatype="html">
+        <source>A figura a baixo expõe claramente um exemplo de controle de acesso. Para isso foi utilizado o algoritmo Python e biblioteca Kivy para criar a interface onde será feito o cadastro das pessoas, fazendo assim a extração das características faciais e enviando as imagens capturadas para uma unidade central com um banco de dados, nesse caso SQLite. Foi desenvolvido um código que atua dentro do Raspberry Pi que é responsável por fazer o treinamento dos rosto das informações que foram cadastradas. Após o treinamento o usuário cadastrado esta pronto para fazer o reconhecimento. A câmera é configurada utilizando os conceitos das bibliotecas do OpenCV, então a mesma esta sempre em modo ativo. Como exemplo foi utilizado um terminal com display, micro controlador e câmera, o usuário vai se aproximar da câmera e o reconhecimento será feito. Se o reconhecimento positivo vai aparecer as informações na tela do usuário. </source>
+        <target>La figure ci-dessous expose clairement un exemple de contrôle d'accès. Pour cela, l'algorithme Python et la bibliothèque Kivy ont été utilisés pour créer l'interface où se fera l'enregistrement des personnes, extrayant ainsi les traits du visage et envoyant les images capturées à une unité centrale avec une base de données, en l'occurrence SQLite. Un code a été développé qui fonctionne au sein du Raspberry Pi, qui est chargé de former les visages des informations qui ont été enregistrées. Après la formation, l'utilisateur enregistré est prêt à effectuer la reconnaissance. La caméra est configurée à l'aide des concepts des bibliothèques OpenCV, elle est donc toujours en mode actif. A titre d'exemple, un terminal avec écran, microcontrôleur et caméra a été utilisé, l'utilisateur s'approchera de la caméra et la reconnaissance se fera. Si la reconnaissance positive apparaîtra les informations sur l'écran de l'utilisateur.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="833185717771882535" datatype="html">
+        <source>Equipamentos Utilizados</source>
+        <target>Equipements d'occasion</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9025143793699656415" datatype="html">
+        <source>Para a ideia do projeto não tínhamos um mega terminal. Então adaptamos um modelo um pouco diferente. foi utilizado um suporte do Ipad com teclado e adaptamos um display de 7 polegadas. atrás do Ipad adaptamos um suporte para colocar a câmera e o Raspberry Pi 4.</source>
+        <target>Pour l'idée du projet, nous n'avions pas de méga terminal. Nous avons donc adapté un modèle légèrement différent. un support Ipad avec un clavier a été utilisé et nous avons adapté un écran de 7 pouces. derrière l'Ipad nous avons adapté un support pour placer la caméra et le Raspberry Pi 4.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1334703962710136963" datatype="html">
+        <source>Projeto fase 1</source>
+        <target>Projet phase 1</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1840705269155019693" datatype="html">
+        <source>Esse vídeo foi os primeiros testes no PC para dar inicio no protótipo. Verificamos principalmente a parte da interface se tem suporte com as bibliotecas de reconhecimento facial. então foi montado um modelo em Python com biblioteca Kivy. E utilizamos um código <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;link-sucess&quot; href=&quot;https://www.youtube.com/watch?v=jqSRzuCAwhY&quot;&gt;"/>[Hindi] Part-1 Facial Recognition System Using Opencv |OpenCV|Python|2018<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> apenas para teste, e obtivemos um resultado muito bom. E começamos a desenvolver. </source>
+        <target>Cette vidéo était les premiers tests sur PC pour démarrer le prototype. Nous vérifions principalement la partie interface si elle est supportée par les bibliothèques de reconnaissance faciale. puis un modèle en Python avec la bibliothèque Kivy a été créé. Et nous utilisons un code <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;link-sucess&quot; href=&quot;https://www.youtube.com/watch?v=jqSRzuCAwhY&quot;&gt;"/>[Hindi] Système de reconnaissance faciale Partie 1 utilisant Opencv |OpenCV|Python|2018<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> uniquement pour les tests, et nous avons obtenu un très bon résultat. Et nous avons commencé à nous développer.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2808997638334875730" datatype="html">
+        <source>Slide do Projeto</source>
+        <target>Diapositive de projet</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/tcc/tcc.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

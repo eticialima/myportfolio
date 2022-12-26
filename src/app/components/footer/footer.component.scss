@@ -1,0 +1,45 @@
+.social {
+	font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.social a {
+	font-size: 4.5rem;
+}
+.fa-facebook {
+	color: #3b5998;
+}
+.fa-instagram {
+	color: #ed00d9;
+}
+.fa-youtube {
+	color: #dd4b39;
+}
+.fa-linkedin-square {
+	color: #5381e2;
+}
+.fa-github {
+	color: #202020;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-linkedin-square:hover,
+.fa-github:hover {
+	color: #d5d5d5;
+}
+
+
+
+@media only screen and (max-width: 758px) {
+ .social {
+  display: block;
+  text-align: center;
+ }
+
+ .social a{
+  margin: 10px;
+ }
+}

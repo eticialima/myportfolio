@@ -1,0 +1,26 @@
+<div class="container-row" *ngIf="cardItems">
+
+  <div class="no-item" *ngIf="!cardItems.length">
+    <p i18n>Nenhum item</p>
+  </div>
+
+	<div *ngFor="let el of cardItems; let i = index">
+		<div class="card-row">
+
+				<img src="../../../assets/image{{ el.image }}" class="card-img-top" alt="...">
+
+				<div class="card-body p-3">
+					<h5 class="card-title">{{ el.name }}</h5>
+					<div class="d-flex justify-content-center gap-3 mt-3">
+						<button class="btn-fl btn-gray btn-lg">
+							<a class="link-light" href="{{ el.path1 }}" target='_blank' i18n>Demo</a>
+						</button>
+						<button class="btn-fl btn-red btn-lg">
+							<a class="link-light" href="{{ el.path2 }}" target='_blank' i18n>Quero!</a>
+						</button>
+					</div>
+				</div>
+
+		</div>
+	</div>
+</div>

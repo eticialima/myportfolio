@@ -1,0 +1,40 @@
+//* You can add global styles to this file, and also import other style files */
+
+// import bootstrap
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import './variables.scss';
+
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+  background-color: $color_background;
+  color: $black-olive;
+}
+
+.hero {
+  background-color: $color_background_dark;
+}
+
+.padding {
+	padding-bottom: 2rem;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+a.btn {
+	transition: all 0.8s ease;
+}
+
+a.btn:hover {
+	transform: scale(1.05);
+	cursor: pointer !important;
+}
