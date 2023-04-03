@@ -1,5 +1,6 @@
 import { Component, LOCALE_ID, Inject } from '@angular/core';
 import { Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 interface Locale {
   code: string;
@@ -14,16 +15,16 @@ interface Locale {
 export class TopMenuComponent {
 
   locales: Locale[] = [
-  { code: 'pt', label: '🇧🇷' },
-  { code: 'en', label: '🇺🇸' },
-  { code: 'fr', label: '🇫🇷' },
-];
+    { code: 'pt', label: '🇧🇷' },
+    { code: 'en', label: '🇺🇸' },
+    { code: 'fr', label: '🇫🇷' },
+  ];
 
-  constructor(public router: Router,@Inject(LOCALE_ID) public locale: string){ }
+  constructor(private router: Router,@Inject(LOCALE_ID) public locale: string) { }
 
   ngOnInit(): void { }
 
-  onChangeLang(event: any){
+  onChangeLang(event: any) {
     const lang = event.target.value;
     window.location.href='/'+lang;
   }

@@ -22,6 +22,13 @@
 					<a class="link-navbar" (click)="contact()" i18n>Contato</a>
 				</li>
 			</ul>
-		</div> 
+		</div>
+    <div style="width:100px;">
+      <select class="form-control" [(ngModel)]="locale" (change)="onChangeLang($event)">
+        <option *ngFor="let language of locales" [value]="language.code">
+          {{language.label}}
+        </option>
+      </select>
+    </div>
 	</div>
 </nav>

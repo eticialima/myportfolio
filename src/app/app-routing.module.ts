@@ -8,31 +8,17 @@ import { TccComponent } from './pages/tcc/tcc.component';
 import { CourseComponent } from './pages/course/course.component';
 
 const routes: Routes = [
-  {
-		path: '',
-		component: HomeComponent,
-		pathMatch: 'full'
-	},
-  {
-		path: 'about',
-		component: AboutComponent
-	},
-  {
-		path: 'projects',
-		component: PortfolioComponent
-	},
-  {
-		path: 'courses',
-		component: CourseComponent
-	},
-  {
-		path: 'contact',
-		component: ContactComponent
-	},
-  {
-		path: 'tcc',
-		component: TccComponent
-	},
+  { path: '', component: HomeComponent, pathMatch: 'full' },
+
+  { path: 'about', component: AboutComponent },
+
+  { path: 'projects', component: PortfolioComponent },
+
+  { path: 'courses', component: CourseComponent },
+
+  { path: 'contact', component: ContactComponent },
+
+  { path: 'tcc', component: TccComponent },
 ];
 
 @NgModule({
