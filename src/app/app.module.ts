@@ -13,8 +13,6 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { TccComponent } from './pages/tcc/tcc.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { CourseComponent } from './pages/course/course.component';
-import { SUPPORTED_LOCALES } from './services/api/language.service';
-
 @NgModule({
   declarations: [
     AppComponent,

@@ -18,7 +18,7 @@
 	<p i18n>A missão do projeto objetiva desenvolver um sistema de baixo custo automatizado para controle de acesso utilizando reconhecimento facial. Como parâmetro de entrada, o sistema recebe uma imagem de um funcionário capturada via webcam retornando como saída uma resposta do reconhecimento das faces previamente cadastradas no banco de dados.  O sistema consiste em três partes: detecção facial, extração de características e reconhecimento. A detecção facial foi implementada usando-se o algoritmo de Rede Neural Convolucional, que tem como base o aprendizado profundo que pode captar uma imagem de entrada e atribuir importâncias como pesos e vieses a vários aspectos para a extração. Além disso, foi utilizado os conceitos de Deep Learning, que junto com a função ConvNet é capaz de reduzir as imagens extraídas para uma forma mais fácil de processar o treinamento, sem perder qualidade e boa previsão. </p>
 	<div class="row py-5">
 		<div class="col-md-6">
-			<iframe src="/assets/videos/video_funcional.mp4" frameborder="0" width="100%" height="350"></iframe>
+			<iframe src="./assets/videos/video_funcional.mp4" frameborder="0" width="100%" height="350"></iframe>
 		</div>
 		<div class="col-md-6">
 			<h4 i18n>Protótipo funcionando PC</h4>
@@ -34,14 +34,14 @@
 	<div class="py-5">
 		<h2 i18n>Diagrama Fluxo dos dados</h2>
 		<p class="py-2" i18n>A figura a baixo expõe claramente um exemplo de controle de acesso. Para isso foi utilizado o algoritmo Python e biblioteca Kivy para criar a interface onde será feito o cadastro das pessoas, fazendo assim a extração das características faciais e enviando as imagens capturadas para uma unidade central com um banco de dados, nesse caso SQLite. Foi desenvolvido um código que atua dentro do Raspberry Pi que é responsável por fazer o  treinamento dos rosto das informações que foram cadastradas. Após o treinamento o usuário cadastrado esta pronto para fazer o reconhecimento. A câmera é configurada utilizando os conceitos das bibliotecas do OpenCV, então a mesma esta sempre em modo ativo. Como exemplo foi utilizado um terminal com display, micro controlador e câmera, o usuário vai se aproximar da câmera e o reconhecimento será feito. Se o reconhecimento positivo vai aparecer as informações na tela do usuário. </p>
-		<img src="/assets/image/tcc1_pt.png" width="100%" alt="tcc1" i18n>
+		<img src="./assets/image/tcc1_pt.png" width="100%" alt="tcc1" i18n>
 	</div>
 	<div class="row py-5">
 		<div class="col">
-			<img src="/assets/image/tcc2.jpeg" width="100%" height="450" alt="tcc2">
+			<img src="./assets/image/tcc2.jpeg" width="100%" height="450" alt="tcc2">
 		</div>
 		<div class="col">
-			<img src="/assets/image/tcc3.jpeg" width="100%" height="450" alt="tcc3">
+			<img src="./assets/image/tcc3.jpeg" width="100%" height="450" alt="tcc3">
 		</div>
 		<div class="col-md-6">
 			<h4  i18n>Equipamentos Utilizados</h4>
@@ -54,11 +54,11 @@
 	<p class="py-2" i18n>Esse vídeo foi os primeiros testes no PC para dar inicio no protótipo. Verificamos principalmente a parte da interface se tem suporte com as bibliotecas de reconhecimento facial. então foi montado um modelo em Python com biblioteca Kivy. E utilizamos um código <a class="link-sucess" href="https://www.youtube.com/watch?v=jqSRzuCAwhY">[Hindi] Part-1 Facial Recognition System Using Opencv |OpenCV|Python|2018</a> apenas para teste, e obtivemos um resultado muito bom. E começamos a desenvolver.
 	</p>
 	<br>
-	<iframe src="/assets/videos/prototipo.mp4" frameborder="0" width="100%" height="450"></iframe>
+	<iframe src="./assets/videos/prototipo.mp4" frameborder="0" width="100%" height="450"></iframe>
 	<br>
 	<div class="py-5">
 		<h2 i18n>Slide do Projeto</h2>
 	</div>
 	<br>
-	<object data="/assets/tcc2020_pt.pdf" width="100%" height="720" i18n></object>
+	<object data="./assets/tcc2020_pt.pdf" width="100%" height="720" i18n></object>
 </div>
