@@ -4,9 +4,7 @@ export const SUPPORTED_LOCALES = [
   { code: 'pt', label: 'Português' },
   { code: 'en', label: 'English' },
   { code: 'fr', label: 'Français' },
-
 ];
-
 
 @Injectable({
   providedIn: 'root'
