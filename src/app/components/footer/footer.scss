@@ -30,27 +30,7 @@
   p {
     line-height: 1.6;
     color: #d0d0d0;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-      margin-bottom: 0.75rem;
-
-      a {
-        color: #d0d0d0;
-        text-decoration: none;
-        transition: color 0.3s ease;
-
-        &:hover {
-          color: white;
-        }
-      }
-    }
-  }
+  } 
 }
 
 .social-links {
