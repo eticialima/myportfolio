@@ -2,11 +2,11 @@
   <div class="footer-content">
     <div class="footer-section">
       <h3>Letícia Lima</h3>
-      <p>Desenvolvedora Full Stack apaixonada por criar soluções digitais elegantes e eficientes.</p>
+      <p>{{ 'footer.description' | translate }}</p>
     </div> 
     
     <div class="footer-section">
-      <h4>Redes Sociais</h4>
+      <h4>{{ 'footer.social' | translate }}</h4>
       <div class="social-links">
         <a href="https://www.linkedin.com/in/leticiarenata" aria-label="LinkedIn">
           <span class="material-icons">work</span>
@@ -25,6 +25,6 @@
   </div>
 
   <div class="footer-bottom">
-    <p>&copy; {{ currentYear }} Letícia Lima. Todos os direitos reservados.</p>
+    <p>&copy; {{ currentYear }} Letícia Lima. {{ 'footer.rights' | translate }}</p>
   </div>
 </footer>

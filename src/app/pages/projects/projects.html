@@ -1,15 +1,15 @@
 <section class="projects-section">
   <div class="container">
     <div class="section-header">
-      <h1>Meus Projetos</h1>
+      <h1>{{ 'projects.title' | translate }}</h1>
       <div class="underline"></div>
       <p class="section-description">
-        Confira alguns dos projetos que desenvolvi ao longo da minha carreira
+        {{ 'projects.subtitle' | translate }}
       </p>
     </div>
 
     @if (loading()) {
-      <div class="loading">Carregando projetos...</div>
+      <div class="loading">{{ 'projects.loading' | translate }}</div>
     } @else {
       <div class="projects-grid">
         @for (project of projects(); track project.ID) {

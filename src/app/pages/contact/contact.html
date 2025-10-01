@@ -1,22 +1,22 @@
 <section class="contact-section">
   <div class="container">
     <div class="section-header">
-      <h1>Entre em Contato</h1>
+      <h1>{{ 'contact.title' | translate }}</h1>
       <div class="underline"></div>
       <p class="section-description">
-        Tem algum projeto em mente? Vamos conversar!
+        {{ 'contact.subtitle' | translate }}
       </p>
     </div>
 
     <div class="contact-content">
       <!-- Informações de Contato -->
       <div class="contact-info">
-        <h2>Informações de Contato</h2>
+        <h2>{{ 'contact.info' | translate }}</h2>
 
         <div class="info-item email">
           <span class="icon"><mat-icon>email</mat-icon></span>
           <div>
-            <h3>Email</h3>
+            <h3>{{ 'contact.email' | translate }}</h3>
             <p>leticialimacgi&#64;gmail.com</p>
           </div>
         </div>
@@ -24,7 +24,7 @@
         <div class="info-item phone">
           <span class="icon"><mat-icon>phone</mat-icon></span>
           <div>
-            <h3>Telefone</h3>
+            <h3>{{ 'contact.phone' | translate }}</h3>
             <p><a href="http://api.whatsapp.com/send?phone=5516994256485">+55 (16) 99425-6485</a></p>
           </div>
         </div>
@@ -32,14 +32,14 @@
         <div class="info-item location">
           <span class="icon"><mat-icon>location_on</mat-icon></span>
           <div>
-            <h3>Localização</h3>
-            <p>São Paulo, Brasil</p>
+            <h3>{{ 'contact.location' | translate }}</h3>
+            <p>{{ 'contact.locationValue' | translate }}</p>
           </div>
         </div>
 
         <!-- Redes Sociais -->
         <div class="social-links">
-          <h3>Redes Sociais</h3>
+          <h3>{{ 'contact.social' | translate }}</h3>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/leticiarenata" target="_blank" class="social-icon">
               <mat-icon>work</mat-icon>
@@ -62,59 +62,65 @@
         @if (submitted()) {
           <div class="feedback-message success">
             <span class="icon">✓</span>
-            <h3>Mensagem enviada com sucesso!</h3>
-            <p>Obrigada pelo contato! Responderei em breve.</p>
+            <h3>{{ 'contact.success.title' | translate }}</h3>
+            <p>{{ 'contact.success.message' | translate }}</p>
           </div>
         } @else if (error()) {
           <div class="feedback-message error">
             <span class="icon">✕</span>
-            <h3>Erro ao enviar mensagem</h3>
-            <p>Por favor, tente novamente ou entre em contato por email.</p>
-            <button type="button" class="retry-btn" (click)="error.set(false)">Tentar Novamente</button>
+            <h3>{{ 'contact.error.title' | translate }}</h3>
+            <p>{{ 'contact.error.message' | translate }}</p>
+            <button type="button" class="retry-btn" (click)="error.set(false)">
+              {{ 'contact.error.retry' | translate }}
+            </button>
           </div>
         } @else {
           <form (ngSubmit)="onSubmit()">
             <div class="form-group">
-              <label for="name">Nome</label>
+              <label for="name">{{ 'contact.form.name' | translate }}</label>
               <input
                 type="text"
                 id="name"
                 [(ngModel)]="formData().name"
                 name="name"
                 required
-                placeholder="Seu nome"
+                [placeholder]="'contact.form.namePlaceholder' | translate"
                 [disabled]="sending()"
               />
             </div>
 
             <div class="form-group">
-              <label for="email">Email</label>
+              <label for="email">{{ 'contact.form.email' | translate }}</label>
               <input
                 type="email"
                 id="email"
                 [(ngModel)]="formData().email"
                 name="email"
                 required
-                placeholder="seu.email@example.com"
+                [placeholder]="'contact.form.emailPlaceholder' | translate"
                 [disabled]="sending()"
               />
             </div>
 
             <div class="form-group">
-              <label for="message">Mensagem</label>
+              <label for="message">{{ 'contact.form.message' | translate }}</label>
               <textarea
                 id="message"
                 [(ngModel)]="formData().message"
                 name="message"
                 required
                 rows="5"
-                placeholder="Sua mensagem..."
+                [placeholder]="'contact.form.messagePlaceholder' | translate"
                 [disabled]="sending()"
               ></textarea>
             </div>
 
             <button type="submit" class="submit-btn" [disabled]="sending()">
-              @if (sending()) { <span>Enviando...</span> } @else { <span>Enviar Mensagem</span> }
+              @if (sending()) { 
+                <span>{{ 'contact.form.sending' | translate }}</span> 
+              } @else { 
+                <span>{{ 'contact.form.send' | translate }}</span> 
+              }
             </button>
           </form>
         }

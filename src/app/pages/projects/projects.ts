@@ -1,10 +1,11 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { ProjectCard } from '../../components/project-card/project-card';
 import { Api, Project } from '../../services/api/api';
+import { TranslatePipe } from '../../services/language/translate.pipe';
 
 @Component({
   selector: 'app-projects',
-  imports: [ProjectCard],
+  imports: [ProjectCard, TranslatePipe],
   templateUrl: './projects.html',
   styleUrl: './projects.scss'
 })

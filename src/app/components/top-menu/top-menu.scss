@@ -84,6 +84,18 @@
   }
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.lang-switcher-desktop {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
 .nav-menu {
   display: flex;
   list-style: none;

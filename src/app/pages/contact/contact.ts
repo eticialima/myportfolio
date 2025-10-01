@@ -3,10 +3,11 @@ import { FormsModule } from '@angular/forms';
 import emailjs from '@emailjs/browser';
 import { environment } from '../../../environments/environment';
 import { MatIconModule } from '@angular/material/icon';
+import { TranslatePipe } from '../../services/language/translate.pipe';
 
 @Component({
   selector: 'app-contact',
-  imports: [FormsModule, MatIconModule],
+  imports: [FormsModule, MatIconModule, TranslatePipe],
   templateUrl: './contact.html',
   styleUrl: './contact.scss'
 })

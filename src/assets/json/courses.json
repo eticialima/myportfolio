@@ -1,21 +1,37 @@
 [
 	{
 		"ID": 1,
-		"name": "Desenvolvimento Web com Django: Sistemas Corporativos",
+		"name": {
+			"pt": "Desenvolvimento Web com Django: Sistemas Corporativos",
+			"en": "Web Development with Django: Corporate Systems",
+			"es": "Desarrollo Web con Django: Sistemas Corporativos"
+		},
 		"image": "https://i.ibb.co/d0ZKFR3r/djangocurso1-sistema.png",
 		"label": "Django",
 		"tags": "Python, Django",
-		"description": "Desenvolva um projeto com Python/Django, HTML e CSS. Dê os primeiros passos para desenvolvimento de sistema Web.",
+		"description": {
+			"pt": "Desenvolva um projeto com Python/Django, HTML e CSS. Dê os primeiros passos para desenvolvimento de sistema Web.",
+			"en": "Develop a project with Python/Django, HTML and CSS. Take the first steps towards Web system development.",
+			"es": "Desarrolla un proyecto con Python/Django, HTML y CSS. Da los primeros pasos para el desarrollo de sistemas Web."
+		},
 		"path1": "https://www.youtube.com/watch?v=qCxf6SVd7_c",
 		"path2": "https://www.udemy.com/course/pythondjango-desenvolvimento-sistema-de-faq-autoatendimento-empresas/?referralCode=12A76F6BB2870DA9C11A"
 	},
 	{
 		"ID": 2,
-		"name": "Desenvolvimento Web Básico: JavaScript, jQuery e AJAX em Ação",
+		"name": {
+			"pt": "Desenvolvimento Web Básico: JavaScript, jQuery e AJAX em Ação",
+			"en": "Basic Web Development: JavaScript, jQuery and AJAX in Action",
+			"es": "Desarrollo Web Básico: JavaScript, jQuery y AJAX en Acción"
+		},
 		"image": "https://i.ibb.co/xKcVPttv/curso-javascript.jpg",
 		"label": "JavaScript", 
 		"tags": "JavaScript, jQuery, AJAX",
-		"description": "Aprenda JavaScript, jQuery e AJAX do zero. Crie páginas web interativas e dinâmicas com comunicação assíncrona com o servidor.",
+		"description": {
+			"pt": "Aprenda JavaScript, jQuery e AJAX do zero. Crie páginas web interativas e dinâmicas com comunicação assíncrona com o servidor.",
+			"en": "Learn JavaScript, jQuery and AJAX from scratch. Create interactive and dynamic web pages with asynchronous server communication.",
+			"es": "Aprende JavaScript, jQuery y AJAX desde cero. Crea páginas web interactivas y dinámicas con comunicación asíncrona con el servidor."
+		},
 		"path1": "https://youtu.be/OQdX-CDRvRU?list=PL2bJNatYYfGTHTOv1_ivxXa2C_zLp_MW6",
 		"path2": "https://www.udemy.com/course/fundamentos-essenciais-javascript-jquery-e-ajax/?referralCode=E670B179DAD083D8D5F1"
 	}

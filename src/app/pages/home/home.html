@@ -2,17 +2,16 @@
   <div class="hero-content">
     <div class="hero-text">
       <h1 class="hero-title">
-        Olá, eu sou
-        <span class="highlight">Letícia Lima</span>
+        {{ 'home.greeting' | translate }}
+        <span class="highlight">{{ 'home.name' | translate }}</span>
       </h1>
-      <p class="hero-subtitle">Desenvolvedora Full Stack</p>
+      <p class="hero-subtitle">{{ 'home.role' | translate }}</p>
       <p class="hero-description">
-        Transformando ideias em soluções digitais elegantes e eficientes.
-        Especializada em Python, Django e desenvolvimento web moderno.
+        {{ 'home.description' | translate }}
       </p>
       <div class="hero-buttons">
-        <a routerLink="/projects" class="btn btn-primary">Ver Projetos</a>
-        <a routerLink="/contact" class="btn btn-secondary">Entre em Contato</a>
+        <a routerLink="/projects" class="btn btn-primary">{{ 'home.viewProjects' | translate }}</a>
+        <a routerLink="/contact" class="btn btn-secondary">{{ 'home.getInTouch' | translate }}</a>
       </div>
     </div>
     <div class="hero-image">
@@ -42,29 +41,29 @@
         <div class="feature-icon python-icon">
           <mat-icon>code</mat-icon>
         </div>
-        <h3>Python & Django</h3>
-        <p>Desenvolvimento de sistemas robustos e escaláveis com Django Framework</p>
+        <h3>{{ 'home.features.python.title' | translate }}</h3>
+        <p>{{ 'home.features.python.description' | translate }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon performance-icon">
           <mat-icon>speed</mat-icon>
         </div>
-        <h3>Performance</h3>
-        <p>Aplicações rápidas e otimizadas para melhor desempenho</p>
+        <h3>{{ 'home.features.performance.title' | translate }}</h3>
+        <p>{{ 'home.features.performance.description' | translate }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon responsive-icon">
           <mat-icon>devices</mat-icon>
         </div>
-        <h3>Responsivo</h3>
-        <p>Experiência perfeita em todos os dispositivos e tamanhos de tela</p>
+        <h3>{{ 'home.features.responsive.title' | translate }}</h3>
+        <p>{{ 'home.features.responsive.description' | translate }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon education-icon">
           <mat-icon>school</mat-icon>
         </div>
-        <h3>Cursos & Tutoriais</h3>
-        <p>Criação de conteúdo educacional para YouTube e Udemy</p>
+        <h3>{{ 'home.features.education.title' | translate }}</h3>
+        <p>{{ 'home.features.education.description' | translate }}</p>
       </div>
     </div>
   </div>

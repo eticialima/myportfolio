@@ -1,10 +1,11 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { Api, Course } from '../../services/api/api';
 import { CourseCard } from '../../components/course-card/course-card';
+import { TranslatePipe } from '../../services/language/translate.pipe';
 
 @Component({
   selector: 'app-courses',
-  imports: [CourseCard],
+  imports: [CourseCard, TranslatePipe],
   templateUrl: './courses.html',
   styleUrl: './courses.scss'
 })

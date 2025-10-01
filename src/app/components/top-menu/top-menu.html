@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="nav-container">
       <a routerLink="/" class="logo">
-        <span class="logo-text">Portfolio</span>
+        <span class="logo-text">{{ 'nav.logo' | translate }}</span>
       </a>
 
       <button class="menu-toggle" (click)="toggleMenu()" [class.active]="isMenuOpen()">
@@ -11,13 +11,18 @@
         <span></span>
       </button>
 
-      <ul class="nav-menu" [class.active]="isMenuOpen()">
-        <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
-        <li><a routerLink="/about" routerLinkActive="active">Sobre</a></li>
-        <li><a routerLink="/projects" routerLinkActive="active">Projetos</a></li>
-        <li><a routerLink="/courses" routerLinkActive="active">Cursos</a></li>
-        <li><a routerLink="/contact" routerLinkActive="active" class="contact-btn">Contato</a></li>
-      </ul>
+      <div class="nav-right">
+        <ul class="nav-menu" [class.active]="isMenuOpen()">
+          <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{ 'nav.home' | translate }}</a></li>
+          <li><a routerLink="/about" routerLinkActive="active">{{ 'nav.about' | translate }}</a></li>
+          <li><a routerLink="/projects" routerLinkActive="active">{{ 'nav.projects' | translate }}</a></li>
+          <li><a routerLink="/courses" routerLinkActive="active">{{ 'nav.courses' | translate }}</a></li>
+          <li><a routerLink="/contact" routerLinkActive="active" class="contact-btn">{{ 'nav.contact' | translate }}</a></li>
+        </ul> 
+        <app-language-switcher class="lang-switcher-desktop"></app-language-switcher> 
+      </div>
+
+
     </div>
   </nav>
 </header>

@@ -1,141 +1,253 @@
 [
 	{
 		"ID": 1,
-		"name": "TCC 2020 - Projeto conclusão de curso - Sistema de Reconhecimento Facial",
+		"name": {
+			"pt": "TCC 2020 - Projeto conclusão de curso - Sistema de Reconhecimento Facial",
+			"en": "TCC 2020 - Final Project - Facial Recognition System",
+			"es": "TCC 2020 - Proyecto final - Sistema de Reconocimiento Facial"
+		},
 		"image": "https://i.ibb.co/MxcSynB5/tccbg.png",
 		"label": "TCC",
 		"tags": "Python, OpenCV, Kivy",
-		"description": "Construindo um sistema de controle de acesso por reconhecimento facial com Kivy e OpenCV. ",
+		"description": {
+			"pt": "Construindo um sistema de controle de acesso por reconhecimento facial com Kivy e OpenCV.",
+			"en": "Building an access control system by facial recognition with Kivy and OpenCV.",
+			"es": "Construyendo un sistema de control de acceso por reconocimiento facial con Kivy y OpenCV."
+		},
 		"path1": "https://youtu.be/zkx5pODt18c",
 		"path2": "/tcc"
 	},
 	{
 		"ID": 2,
-		"name": "Blog Simples CRUD",
+		"name": {
+			"pt": "Blog Simples CRUD",
+			"en": "Simple CRUD Blog",
+			"es": "Blog Simple CRUD"
+		},
 		"image": "https://i.ibb.co/gMyyRFdj/32.jpg",
 		"label": "Django",
 		"tags": "Python",
-		"description": "como criar um blog Simples com Django. Nesses vídeos vamos trabalhar com CRUD para que usuário iniciante tenha seu primeiro contato com esse framework incrível.",
+		"description": {
+			"pt": "Como criar um blog Simples com Django. Nesses vídeos vamos trabalhar com CRUD para que usuário iniciante tenha seu primeiro contato com esse framework incrível.",
+			"en": "How to create a Simple blog with Django. In these videos we will work with CRUD so that beginner users have their first contact with this incredible framework.",
+			"es": "Cómo crear un blog Simple con Django. En estos videos trabajaremos con CRUD para que los usuarios principiantes tengan su primer contacto con este increíble framework."
+		},
 		"path1": "https://youtu.be/fl0jcn1WeIU?list=PL2bJNatYYfGTo-V4u4hMQW76ZulF77K_8",
 		"path2": "https://github.com/opencodigos/DjangoProjeto1-BlogSimples"
 	},
 	{
 		"ID": 3,
-		"name": "Lista de Tarefas Dinâmica com Django e AJAX",
+		"name": {
+			"pt": "Lista de Tarefas Dinâmica com Django e AJAX",
+			"en": "Dynamic Task List with Django and AJAX",
+			"es": "Lista de Tareas Dinámica con Django y AJAX"
+		},
 		"image": "https://i.ibb.co/tMtJ9rcj/5675700-35ef-3.jpg",
 		"label": "Django",
 		"tags": "Python, JavaScript, AJAX",
-		"description": "Construa sua Lista de Tarefas Dinâmica: Explorando Django e AJAX para Desenvolvimento Web Interativo.",
+		"description": {
+			"pt": "Construa sua Lista de Tarefas Dinâmica: Explorando Django e AJAX para Desenvolvimento Web Interativo.",
+			"en": "Build your Dynamic Task List: Exploring Django and AJAX for Interactive Web Development.",
+			"es": "Construye tu Lista de Tareas Dinámica: Explorando Django y AJAX para Desarrollo Web Interactivo."
+		},
 		"path1": "https://www.youtube.com/watch?v=MvVxA45KBeI&list=PL2bJNatYYfGSSXCkqOdVvIx4pI3Bcxjt5",
 		"path2": "https://www.udemy.com/course/pythondjango-construindo-uma-lista-de-tarefas-dinamica-com-ajax"
 	},
 	{
 		"ID": 4,
-		"name": "Sistema de Controle de Aluguéis com Django",
+		"name": {
+			"pt": "Sistema de Controle de Aluguéis com Django",
+			"en": "Rental Control System with Django",
+			"es": "Sistema de Control de Alquileres con Django"
+		},
 		"image": "https://i.ibb.co/PGMyFdHk/u1.png",
 		"label": "Django",
 		"tags": "Python, Bootstrap",
-		"description": "Iniciando no desenvolvimento Web construindo um Sistema de Controle de Aluguéis com Python, Django e Bootstrap.",
+		"description": {
+			"pt": "Iniciando no desenvolvimento Web construindo um Sistema de Controle de Aluguéis com Python, Django e Bootstrap.",
+			"en": "Starting in Web development building a Rental Control System with Python, Django and Bootstrap.",
+			"es": "Iniciando en el desarrollo Web construyendo un Sistema de Control de Alquileres con Python, Django y Bootstrap."
+		},
 		"path1": "https://www.youtube.com/watch?v=Mgd-WfzhlUE&list=PL2bJNatYYfGRxFSP1aEUNqaR_ZTqrDO_h",
 		"path2": "https://www.udemy.com/course/pythondjango-desenvolvimento-sistema-de-alugueis"
 	},
 	{
 		"ID": 5,
-		"name": "Sistema de Sorveteria com Django + jQuery",
+		"name": {
+			"pt": "Sistema de Sorveteria com Django + jQuery",
+			"en": "Ice Cream Shop System with Django + jQuery",
+			"es": "Sistema de Heladería con Django + jQuery"
+		},
 		"image": "https://i.ibb.co/ZzFpSFXx/6301171-611d-2.jpg",
 		"label": "Django",
 		"tags": "Python, jQuery",
-		"description": "Vamos desenvolver um sistema de sorveteria simples com Django utilizando Jquery/Ajax para deixar as coisas mais dinâmicas.",
+		"description": {
+			"pt": "Vamos desenvolver um sistema de sorveteria simples com Django utilizando Jquery/Ajax para deixar as coisas mais dinâmicas.",
+			"en": "Let's develop a simple ice cream shop system with Django using Jquery/Ajax to make things more dynamic.",
+			"es": "Vamos a desarrollar un sistema simple de heladería con Django utilizando Jquery/Ajax para hacer las cosas más dinámicas."
+		},
 		"path1": "https://youtu.be/9c3lwgIpO0M?list=PL2bJNatYYfGTYylyB6wR4E_kKhiRrog-B",
 		"path2": "https://www.udemy.com/course/sistema-de-sorveteria-com-django/?referralCode=655A136A7A20F2EDC65B"
 	},
 	{
 		"ID": 6,
-		"name": "Registro de Ponto - Reconhecimento Facial",
+		"name": {
+			"pt": "Registro de Ponto - Reconhecimento Facial",
+			"en": "Time Clock - Facial Recognition",
+			"es": "Registro de Asistencia - Reconocimiento Facial"
+		},
 		"image": "https://i.ibb.co/mFRSfst0/6300389-3683-3.jpg",
 		"label": "Python",
 		"tags": "Django, OpenvCV, Kivy",
-		"description": "Construindo um sistema de controle de acesso por reconhecimento facial com Kivy e OpenCV. ",
+		"description": {
+			"pt": "Construindo um sistema de controle de acesso por reconhecimento facial com Kivy e OpenCV.",
+			"en": "Building an access control system by facial recognition with Kivy and OpenCV.",
+			"es": "Construyendo un sistema de control de acceso por reconocimiento facial con Kivy y OpenCV."
+		},
 		"path1": "https://youtu.be/RXNQFz220wI",
 		"path2": "https://www.udemy.com/course/pythondjango-desenvolvimento-sistema-de-faq-autoatendimento-empresas/?referralCode=12A76F6BB2870DA9C11A"
 	},
 	{
 		"ID": 7,
-		"name": "Clínica Veterinária - Sistema de Agendamento Django e Ionic",
+		"name": {
+			"pt": "Clínica Veterinária - Sistema de Agendamento Django e Ionic",
+			"en": "Veterinary Clinic - Scheduling System Django and Ionic",
+			"es": "Clínica Veterinaria - Sistema de Agendamiento Django e Ionic"
+		},
 		"image": "https://i.ibb.co/C5dCdqKT/capa2.png",
 		"label": "Ionic",
 		"tags": "Django, Angular, FullCalendar",
-		"description": "Projeto para gerenciar consultas médicas veterinárias, com agenda interativa e controle de clientes, animais e veterinários.",
+		"description": {
+			"pt": "Projeto para gerenciar consultas médicas veterinárias, com agenda interativa e controle de clientes, animais e veterinários.",
+			"en": "Project to manage veterinary medical appointments, with interactive calendar and control of clients, animals and veterinarians.",
+			"es": "Proyecto para gestionar consultas médicas veterinarias, con agenda interactiva y control de clientes, animales y veterinarios."
+		},
 		"path1": "https://youtu.be/b1S_LNQV8gg?list=PL2bJNatYYfGTAq0A43qF8V5syXWc5nZyh",
 		"path2": "https://www.udemy.com/course/clinica-veterinaria-sistema-de-agendamento-django-e-ionic/?referralCode=ADC7138A2178079EB41D"
 	},  
 	{
-		"ID": 0,
-		"name": "Django Sistema Inteligente QA Forum",
+		"ID": 8,
+		"name": {
+			"pt": "Django Sistema Inteligente QA Forum",
+			"en": "Django Smart QA Forum System",
+			"es": "Django Sistema Inteligente Foro QA"
+		},
 		"image": "https://i.ibb.co/FkXKvC62/img-1.jpg",
 		"label": "Django",
 		"tags": "Django, Python, Forum",
-		"description": "Sistema inteligente de perguntas e respostas desenvolvido com Django",
+		"description": {
+			"pt": "Sistema inteligente de perguntas e respostas desenvolvido com Django",
+			"en": "Smart question and answer system developed with Django",
+			"es": "Sistema inteligente de preguntas y respuestas desarrollado con Django"
+		},
 		"path1": "https://youtu.be/f4FY0Ccu8FY",
 		"path2": "https://eticia.gumroad.com/l/django-system-qa-forum-app"
 	},
 	{
-		"ID": 0,
-		"name": "Django Blog Portal Completo",
+		"ID": 9,
+		"name": {
+			"pt": "Django Blog Portal Completo",
+			"en": "Django Complete Blog Portal",
+			"es": "Django Portal de Blog Completo"
+		},
 		"image": "https://i.ibb.co/yccx1rrn/img-5.jpg",
 		"label": "Django",
 		"tags": "Django, Blog, CMS",
-		"description": "Blog completo com sistema de posts, comentários e painel administrativo",
+		"description": {
+			"pt": "Blog completo com sistema de posts, comentários e painel administrativo",
+			"en": "Complete blog with posts system, comments and admin panel",
+			"es": "Blog completo con sistema de posts, comentarios y panel administrativo"
+		},
 		"path1": "https://youtu.be/stFbzz_4f4w",
 		"path2": "https://eticia.gumroad.com/l/django-system-portal-blog-app"
 	},
 	{
-		"ID": 0,
-		"name": "Sistema de Comentários com AJAX",
+		"ID": 10,
+		"name": {
+			"pt": "Sistema de Comentários com AJAX",
+			"en": "Comments System with AJAX",
+			"es": "Sistema de Comentarios con AJAX"
+		},
 		"image": "https://i.ibb.co/mV1xPVSW/img-8.jpg",
 		"label": "Django",
 		"tags": "Django, AJAX, JavaScript",
-		"description": "Sistema dinâmico de comentários utilizando Django e AJAX",
+		"description": {
+			"pt": "Sistema dinâmico de comentários utilizando Django e AJAX",
+			"en": "Dynamic comments system using Django and AJAX",
+			"es": "Sistema dinámico de comentarios utilizando Django y AJAX"
+		},
 		"path1": "https://eticia.gumroad.com/l/django-comments-in-ajax-app",
 		"path2": "https://eticia.gumroad.com/l/django-comments-in-ajax-app"
 	},
 	{
-		"ID": 0,
-		"name": "Gerenciador de Manuais de Carros",
+		"ID": 11,
+		"name": {
+			"pt": "Gerenciador de Manuais de Carros",
+			"en": "Car Manuals Manager",
+			"es": "Gestor de Manuales de Autos"
+		},
 		"image": "https://i.ibb.co/MDkZtPTC/img-7.jpg",
 		"label": "Django",
 		"tags": "Django, Upload, PDF",
-		"description": "Sistema de gerenciamento e organização de manuais automotivos",
+		"description": {
+			"pt": "Sistema de gerenciamento e organização de manuais automotivos",
+			"en": "Management and organization system for automotive manuals",
+			"es": "Sistema de gestión y organización de manuales automotrices"
+		},
 		"path1": "https://eticia.gumroad.com/l/django-system-car-manuals-app",
 		"path2": "https://eticia.gumroad.com/l/django-system-car-manuals-app"
 	},
 	{
-		"ID": 0,
-		"name": "Sistema Mybook - Cadastro Avançado",
+		"ID": 12,
+		"name": {
+			"pt": "Sistema Mybook - Cadastro Avançado",
+			"en": "Mybook System - Advanced Registration",
+			"es": "Sistema Mybook - Registro Avanzado"
+		},
 		"image": "https://i.ibb.co/mVXcz7vp/img-2.jpg",
 		"label": "Django",
 		"tags": "Django, Python, JavaScript",
-		"description": "Sistema de cadastro utilizando formset factory com JavaScript dinâmico",
+		"description": {
+			"pt": "Sistema de cadastro utilizando formset factory com JavaScript dinâmico",
+			"en": "Registration system using formset factory with dynamic JavaScript",
+			"es": "Sistema de registro utilizando formset factory con JavaScript dinámico"
+		},
 		"path1": "https://eticia.gumroad.com/l/django-system-mybook-app",
 		"path2": "https://eticia.gumroad.com/l/django-system-mybook-app"
 	},
 	{
-		"ID": 0,
-		"name": "Wix Velo - Menu com Filtros",
+		"ID": 13,
+		"name": {
+			"pt": "Wix Velo - Menu com Filtros",
+			"en": "Wix Velo - Menu with Filters",
+			"es": "Wix Velo - Menú con Filtros"
+		},
 		"image": "https://i.ibb.co/ZRyJ9MHh/img-4.jpg",
 		"label": "Wix",
 		"tags": "Wix, Velo, JavaScript",
-		"description": "Sistema de menu dinâmico com filtros por tags para Wix Velo",
+		"description": {
+			"pt": "Sistema de menu dinâmico com filtros por tags para Wix Velo",
+			"en": "Dynamic menu system with tag filters for Wix Velo",
+			"es": "Sistema de menú dinámico con filtros por etiquetas para Wix Velo"
+		},
 		"path1": "https://www.youtube.com/watch?v=qg_953h1pTI",
 		"path2": "https://eticia.gumroad.com/l/wix-velo-menu-tags-filters-code"
 	},
 	{
-		"ID": 0,
-		"name": "Formulário Customizado Inteligente",
+		"ID": 14,
+		"name": {
+			"pt": "Formulário Customizado Inteligente",
+			"en": "Smart Custom Form",
+			"es": "Formulario Personalizado Inteligente"
+		},
 		"image": "https://i.ibb.co/h1TWNrgX/img-6.jpg",
 		"label": "Django",
 		"tags": "Django, Forms, Dynamic",
-		"description": "Gerenciador de formulários com questões customizadas e validação dinâmica",
+		"description": {
+			"pt": "Gerenciador de formulários com questões customizadas e validação dinâmica",
+			"en": "Form manager with custom questions and dynamic validation",
+			"es": "Gestor de formularios con preguntas personalizadas y validación dinámica"
+		},
 		"path1": "https://www.youtube.com/watch?v=R5SpPwQlY_s",
 		"path2": "https://eticia.gumroad.com/l/django-form-questionnaire-app"
 	}

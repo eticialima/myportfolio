@@ -1,6 +1,6 @@
 <div class="project-card">
   <div class="project-image">
-    <img [src]="project().image" [alt]="project().name" loading="lazy" />
+    <img [src]="project().image" [alt]="getProjectName()" loading="lazy" />
     <div class="project-overlay">
       <div class="project-links">
         @if (project().path1.includes('youtube') || project().path1.includes('youtu.be')) {
@@ -18,8 +18,8 @@
   </div>
   <div class="project-content">
     <div class="project-label">{{ project().label }}</div>
-    <h3>{{ project().name }}</h3>
-    <p>{{ project().description }}</p>
+    <h3>{{ getProjectName() }}</h3>
+    <p>{{ getProjectDescription() }}</p>
     @if (getTags().length > 0) {
       <div class="project-tags">
         @for (tag of getTags(); track tag) {

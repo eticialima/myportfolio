@@ -1,11 +1,11 @@
 <div class="course-card">
   <div class="course-image">
-    <img [src]="course().image" [alt]="course().name" loading="lazy" />
+    <img [src]="course().image" [alt]="getCourseName()" loading="lazy" />
     <div class="course-label">{{ course().label }}</div>
   </div>
   <div class="course-content">
-    <h3>{{ course().name }}</h3>
-    <p class="description">{{ course().description }}</p>
+    <h3>{{ getCourseName() }}</h3>
+    <p class="description">{{ getCourseDescription() }}</p>
     <div class="course-links">
       @if (course().path1.includes('youtube') || course().path1.includes('youtu.be')) {
         <a [href]="course().path1" target="_blank" rel="noopener" class="course-link youtube">

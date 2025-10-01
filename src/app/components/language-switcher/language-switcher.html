@@ -1,0 +1,43 @@
+<div class="language-switcher">
+  <button 
+    class="lang-button" 
+    (click)="toggleDropdown()" 
+    [class.active]="isOpen"
+    [attr.aria-expanded]="isOpen"
+    [attr.aria-label]="'Select language'">
+    <span class="lang-badge">
+      <img 
+        [src]="getFlagPath(currentLanguage())" 
+        [alt]="getCurrentLocale()?.label || 'Language'" 
+        class="lang-icon">
+    </span>
+    <mat-icon class="arrow" [class.rotate]="isOpen">expand_more</mat-icon>
+  </button>
+
+  <div 
+    class="dropdown" 
+    [class.show]="isOpen"
+    role="menu"
+    [attr.aria-hidden]="!isOpen">
+    @for (locale of locales; track locale.code) {
+      <button 
+        type="button"
+        class="dropdown-item" 
+        [class.active]="locale.code === currentLanguage()"
+        (click)="selectLanguage(locale.code)"
+        role="menuitem"
+        [attr.aria-label]="'Switch to ' + locale.label">
+        <span class="lang-flag-circle">
+          <img 
+            [src]="getFlagPath(locale.code)" 
+            [alt]="locale.label" 
+            class="flag-img">
+        </span>
+        <span class="label">{{ locale.label }}</span>
+        @if (locale.code === currentLanguage()) {
+          <mat-icon class="check" aria-label="Selected">check</mat-icon>
+        }
+      </button>
+    }
+  </div>
+</div>
