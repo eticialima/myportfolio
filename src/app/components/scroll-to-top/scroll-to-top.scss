@@ -1,0 +1,97 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-hover) 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100px) scale(0.5) rotate(-180deg);
+  z-index: 999;
+
+  mat-icon {
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    transition: transform 0.3s ease;
+  }
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1) rotate(0deg);
+    animation: float 3s ease-in-out infinite, pulse 2s ease-in-out infinite;
+  }
+
+  &:hover {
+    background: linear-gradient(135deg, var(--accent-hover) 0%, var(--accent-color) 100%);
+    transform: translateY(-8px) scale(1.1);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+
+    mat-icon {
+      transform: translateY(-3px);
+      animation: bounce 0.6s ease-in-out;
+    }
+  }
+
+  &:active {
+    transform: translateY(-4px) scale(1.05);
+    transition: all 0.1s ease;
+  }
+}
+
+// Animação de flutuação suave
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) scale(1) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) scale(1) rotate(0deg);
+  }
+}
+
+// Animação de pulso no brilho
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  50% {
+    box-shadow: 0 4px 20px rgba(59, 60, 54, 0.4), 0 0 30px rgba(59, 60, 54, 0.2);
+  }
+}
+
+// Animação de bounce no ícone
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-3px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+// Responsivo
+@media (max-width: 768px) {
+  .scroll-to-top {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 48px;
+    height: 48px;
+
+    mat-icon {
+      font-size: 24px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
