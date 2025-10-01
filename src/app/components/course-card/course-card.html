@@ -1,0 +1,22 @@
+<div class="course-card">
+  <div class="course-image">
+    <img [src]="course().image" [alt]="course().name" loading="lazy" />
+    <div class="course-label">{{ course().label }}</div>
+  </div>
+  <div class="course-content">
+    <h3>{{ course().name }}</h3>
+    <p class="description">{{ course().description }}</p>
+    <div class="course-links">
+      @if (course().path1.includes('youtube') || course().path1.includes('youtu.be')) {
+        <a [href]="course().path1" target="_blank" rel="noopener" class="course-link youtube">
+          <span class="material-icons">play_circle</span>
+          <span>YouTube</span>
+        </a>
+      }
+      <a [href]="course().path2" target="_blank" rel="noopener" class="course-link udemy">
+        <span class="material-icons">school</span>
+        <span>Ver Curso</span>
+      </a>
+    </div>
+  </div>
+</div>

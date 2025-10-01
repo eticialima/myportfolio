@@ -1,0 +1,157 @@
+<section class="tcc-hero">
+  <div class="container">
+    <h1>Projeto TCC 2020</h1>
+    <h2>Sistema de Controle de Acesso por Reconhecimento Facial</h2>
+    <p class="hero-subtitle">Engenharia da Computação</p>
+    <div class="hero-buttons">
+      <a href="https://github.com/eticialima/recognitionfacial" target="_blank" class="btn btn-primary">
+        <span class="material-icons">code</span>
+        <span>GitHub</span>
+      </a>
+      <a href="/tcc2020_pt.pdf" target="_blank" class="btn btn-secondary">
+        <span class="material-icons">picture_as_pdf</span>
+        <span>PDF</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-header">
+      <h2>Missão do Projeto</h2>
+      <div class="underline"></div>
+    </div>
+    <p>
+      A missão do projeto objetiva desenvolver um <strong>sistema de baixo custo automatizado</strong> para controle 
+      de acesso utilizando reconhecimento facial. Como parâmetro de entrada, o sistema recebe uma imagem de um 
+      funcionário capturada via webcam retornando como saída uma resposta do reconhecimento das faces previamente 
+      cadastradas no banco de dados.
+    </p>
+    <p>
+      O sistema consiste em três partes: <strong>detecção facial, extração de características e reconhecimento</strong>. 
+      A detecção facial foi implementada usando-se o algoritmo de Rede Neural Convolucional, que tem como base o 
+      aprendizado profundo que pode captar uma imagem de entrada e atribuir importâncias como pesos e vieses a vários 
+      aspectos para a extração. Além disso, foi utilizado os conceitos de Deep Learning, que junto com a função ConvNet 
+      é capaz de reduzir as imagens extraídas para uma forma mais fácil de processar o treinamento, sem perder qualidade 
+      e boa previsão.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="demo-grid">
+      <video controls>
+        <source src="/videos/video_funcional.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+      </video>
+      <div>
+        <h3>Protótipo Funcionando</h3>
+        <p>
+          Para o reconhecimento de faces foi desenvolvido um código que realiza o processamento de extração das 
+          faces através de uma câmera digital. O método utilizado é baseado na identificação dos atributos faciais 
+          do usuário.
+        </p>
+        <p>
+          Foi utilizado <strong>Rede Neural</strong> pela facilidade que a rede tem de receber informações e 
+          compará-las com outras informações em um tempo muito curto.
+        </p>
+        <div class="tech-tags">
+          <span class="tag">Python</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">Deep Learning</span>
+          <span class="tag">CNN</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-header">
+      <h2>Arquitetura do Sistema</h2>
+      <div class="underline"></div>
+    </div>
+    <p>
+      A figura abaixo expõe claramente um exemplo de controle de acesso. Foi utilizado o algoritmo Python e 
+      biblioteca <strong>Kivy</strong> para criar a interface onde será feito o cadastro das pessoas, fazendo 
+      assim a extração das características faciais e enviando as imagens capturadas para uma unidade central com 
+      um banco de dados <strong>SQLite</strong>.
+    </p>
+    <p>
+      Foi desenvolvido um código que atua dentro do <strong>Raspberry Pi</strong> que é responsável por fazer o 
+      treinamento dos rostos das informações que foram cadastradas. Após o treinamento, o usuário cadastrado está 
+      pronto para fazer o reconhecimento.
+    </p>
+    <img src="https://i.ibb.co/0phMJxyC/tcc1-pt.png" alt="Diagrama do Sistema" />
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-header">
+      <h2>Hardware</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="equipment-grid">
+      <div class="equipment-images">
+        <img src="https://i.ibb.co/5qgwLX9/tcc2.jpg" alt="Hardware 1" />
+        <img src="https://i.ibb.co/R49rBqpJ/tcc3.jpg" alt="Hardware 2" />
+      </div>
+      <div class="equipment-content">
+        <h3>Adaptação Criativa</h3>
+        <p>
+          Para a ideia do projeto não tínhamos um mega terminal. Então adaptamos um modelo um pouco diferente. 
+          Foi utilizado um suporte do iPad com teclado e adaptamos um <strong>display de 7 polegadas</strong>.
+        </p>
+        <p>
+          Atrás do iPad adaptamos um suporte para colocar a câmera e o <strong>Raspberry Pi 4</strong>.
+        </p>
+        <ul class="equipment-list">
+          <li><span class="material-icons">check_circle</span> Raspberry Pi 4</li>
+          <li><span class="material-icons">check_circle</span> Display 7"</li>
+          <li><span class="material-icons">check_circle</span> Webcam HD</li>
+          <li><span class="material-icons">check_circle</span> Suporte iPad</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-header">
+      <h2>Primeiros Testes</h2>
+      <div class="underline"></div>
+    </div>
+    <p>
+      Esse vídeo foi os primeiros testes no PC para dar início no protótipo. Verificamos principalmente a parte 
+      da interface se tem suporte com as bibliotecas de reconhecimento facial. Então foi montado um modelo em 
+      <strong>Python com biblioteca Kivy</strong>. E obtivemos um resultado muito bom!
+    </p>
+    <video controls>
+      <source src="/videos/prototipo.mp4" type="video/mp4">
+      Seu navegador não suporta vídeos.
+    </video>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-header">
+      <h2>Apresentação Completa</h2>
+      <div class="underline"></div>
+      <p class="section-description">Confira a apresentação completa do projeto</p>
+    </div>
+    <div class="pdf-container">
+      <object data="/tcc2020_pt.pdf" type="application/pdf" width="100%" height="720">
+        <p>
+          Seu navegador não suporta visualização de PDF. 
+          <a href="/tcc2020_pt.pdf" target="_blank">Clique aqui para fazer o download</a>
+        </p>
+      </object>
+    </div>
+  </div>
+</section>

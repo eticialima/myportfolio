@@ -1,0 +1,209 @@
+.contact-section {
+  padding: 4rem 2rem;
+  min-height: calc(100vh - 200px);
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: var(--text-primary);
+    }
+
+    .underline {
+      width: 80px;
+      height: 4px;
+      background: var(--accent-color);
+      margin: 0 auto 1rem;
+      border-radius: 2px;
+    }
+
+    .section-description {
+      font-size: 1.1rem;
+      color: var(--text-secondary);
+    }
+  }
+
+  .contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+
+    @media (max-width: 968px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Info */
+  .contact-info {
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      color: var(--text-primary);
+    }
+
+    .info-item {
+      display: flex;
+      align-items: start;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: var(--card-bg);
+        transform: scale(1.05);
+      }
+
+      .icon {
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 12px; 
+      }
+
+      /* Cores específicas */
+      &.email .icon { background: rgba(53, 153, 234, 0.1); color: #2580d6; }
+      &.phone .icon { background: rgba(37, 211, 102, 0.1); color: #25D366; }
+      &.location .icon { background: rgba(244, 67, 54, 0.1); color: #F44336; }
+
+      h3 { font-size: 1.1rem; margin-bottom: 0.25rem; color: var(--text-primary); }
+      p, a { color: var(--text-secondary); font-size: 1rem; text-decoration: none; }
+      a:hover { color: var(--accent-color); }
+    }
+  }
+
+  /* Redes Sociais */
+  .social-links {
+    margin-top: 2rem;
+
+    h3 { font-size: 1.2rem; margin-bottom: 1rem; }
+
+    .social-icons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .social-icon {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      background: var(--card-bg);
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateX(8px);
+        background: var(--accent-color);
+        color: white;
+        border-color: var(--accent-color);
+      }
+    }
+  }
+
+  /* Formulário */
+  .contact-form {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+
+    .form-group {
+      margin-bottom: 1.5rem;
+
+      label { display: block; margin-bottom: 0.5rem; font-weight: 500; color: var(--text-primary); }
+      input, textarea {
+        width: 100%; padding: 0.75rem 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        font-family: inherit;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+
+        &:focus { 
+          outline: none;
+          border-color: var(--accent-color); 
+          box-shadow: 0 0 0 3px rgba(59,60,54,0.1); 
+        }
+
+        &::placeholder {
+          color: var(--text-secondary);
+          opacity: 0.6;
+        }
+      }
+      textarea { resize: vertical; min-height: 120px; }
+    }
+
+    .submit-btn {
+      width: 100%; padding: 1rem 2rem;
+      background: var(--accent-color);
+      color: white; 
+      border: none; 
+      border-radius: 8px;
+      font-size: 1.1rem; 
+      font-weight: 600;
+      cursor: pointer; 
+      transition: all 0.3s ease;
+
+      &:hover:not(:disabled) { 
+        background: var(--accent-hover); 
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(59, 60, 54, 0.3);
+      }
+      
+      &:disabled { 
+        opacity: .6; 
+        cursor: not-allowed; 
+        transform: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  /* Mensagens (Sucesso/Erro) */
+  .feedback-message {
+    text-align: center;
+    padding: 3rem 2rem;
+
+    .icon {
+      display: inline-block;
+      width: 80px; height: 80px;
+      line-height: 80px; font-size: 3rem;
+      border-radius: 50%;
+      margin-bottom: 1.5rem; color: white;
+    }
+
+    &.success .icon { background: #4caf50; }
+    &.error .icon { background: #f44336; }
+
+    h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    p { font-size: 1.1rem; color: var(--text-secondary); }
+
+    .retry-btn {
+      padding: 0.75rem 2rem;
+      background: var(--accent-color);
+      color: white; border-radius: 8px;
+      font-size: 1rem; font-weight: 600;
+      transition: all 0.3s ease;
+
+      &:hover { background: var(--accent-hover); transform: translateY(-2px); }
+    }
+  }
+}

@@ -1,47 +1,53 @@
 {
-  "name": "myportfolio",
-  "version": "0.0.0",
+  "name": "leticia-lima",
+  "version": "1.0.0",
+  "description": "Portfolio pessoal de Letícia Lima - Desenvolvedora Full Stack",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "start:en": "ng serve --configuration=en",
-    "start:fr": "ng serve --configuration=fr",
+    "start": "ng serve --open",
     "build": "ng build",
-    "build:en": "ng build --configuration=en",
-    "build:fr": "ng build --configuration=fr",
-    "build:localize": "ng build --localize",
+    "build:prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "i18n:extract": "ng extract-i18n --output-path src/locale"
+    "lint": "ng lint"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^17.1.2",
-    "@angular/common": "^17.1.2",
-    "@angular/compiler": "^17.1.2",
-    "@angular/core": "^17.1.2",
-    "@angular/forms": "^17.1.2",
-    "@angular/platform-browser": "^17.1.2",
-    "@angular/platform-browser-dynamic": "^17.1.2",
-    "@angular/router": "^17.1.2",
-    "bootstrap": "^5.2.3",
-    "font-awesome": "^4.7.0",
-    "rxjs": "~7.5.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.14.3"
+    "@angular/cdk": "^20.2.5",
+    "@angular/common": "^20.3.0",
+    "@angular/compiler": "^20.3.0",
+    "@angular/core": "^20.3.0",
+    "@angular/forms": "^20.3.0",
+    "@angular/material": "^20.2.5",
+    "@angular/platform-browser": "^20.3.0",
+    "@angular/router": "^20.3.0",
+    "@emailjs/browser": "^4.4.1",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.1.2",
-    "@angular/cli": "~17.1.2",
-    "@angular/compiler-cli": "^17.1.2",
-    "@angular/localize": "^17.1.2",
-    "@types/jasmine": "~4.3.0",
-    "jasmine-core": "~4.5.0",
+    "@angular/build": "^20.3.3",
+    "@angular/cli": "^20.3.3",
+    "@angular/compiler-cli": "^20.3.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine-core": "~5.9.0",
     "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.1.0",
+    "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.0.0",
-    "typescript": "~5.3.3"
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.9.2"
   }
 }

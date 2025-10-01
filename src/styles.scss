@@ -1,40 +1,122 @@
-//* You can add global styles to this file, and also import other style files */
 
-// import bootstrap
-@import 'bootstrap/dist/css/bootstrap.min.css';
+// Include theming for Angular Material with `mat.theme()`.
+// This Sass mixin will define CSS variables that are used for styling Angular Material
+// components according to the Material 3 design spec.
+// Learn more about theming and how to use it for your application's
+// custom components at https://material.angular.dev/guide/theming
+@use '@angular/material' as mat;
 
-@import './variables.scss';
-
-/* You can add global styles to this file, and also import other style files */
-
-* {
-    margin: 0px;
-    padding: 0px;
-
+html {
+  @include mat.theme((
+    color: (
+      primary: mat.$azure-palette,
+      tertiary: mat.$blue-palette,
+    ),
+    typography: Roboto,
+    density: 0,
+  ));
 }
 
 body {
-  background-color: $color_background;
-  color: $black-olive;
+  // Default the application to a light color theme. This can be changed to
+  // `dark` to enable the dark color theme, or to `light dark` to defer to the
+  // user's system settings.
+  color-scheme: light;
+
+  // Set a default background, font and text colors for the application using
+  // Angular Material's system-level CSS variables. Learn more about these
+  // variables at https://material.angular.dev/guide/system-variables
+  background-color: var(--mat-sys-surface);
+  font: var(--mat-sys-body-medium);
+
+  // Reset the user agent margin.
+  margin: 0;
+}
+/* You can add global styles to this file, and also import other style files */
+
+// CSS Variables
+:root {
+  // Colors from old project
+  --white: #ffffff;
+  --black-olive: #3b3c36;
+  --pale-silver: #ddcecdff;
+  --pale-gray: #797676;
+  --color-red: #d80101;
+  --pale-burlywood: #deb887;
+  --shadow-color: #0000002e;
+
+  // Theme colors
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-primary: #3b3c36;
+  --text-secondary: #797676;
+  --accent-color: #3b3c36;
+  --accent-hover: #2a2b27;
+  --border-color: #e0e0e0;
+  --color-background-dark: #3b3c36;
 }
 
-.hero {
-  background-color: $color_background_dark;
+// Reset & Base
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.padding {
-	padding-bottom: 2rem;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 a {
-	text-decoration: none !important;
+  text-decoration: none;
+  color: inherit;
 }
 
-a.btn {
-	transition: all 0.8s ease;
+// Utilities
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
-a.btn:hover {
-	transform: scale(1.05);
-	cursor: pointer !important;
+// Scrollbar
+::-webkit-scrollbar {
+  width: 10px;
 }
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 5px;
+
+  &:hover {
+    background: var(--accent-hover);
+  }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

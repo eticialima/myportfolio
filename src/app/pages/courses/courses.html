@@ -1,0 +1,21 @@
+<section class="courses-section">
+  <div class="container">
+    <div class="section-header">
+      <h1>Cursos e Certificações</h1>
+      <div class="underline"></div>
+      <p class="section-description">
+        Aprendizado contínuo é essencial. Aqui estão alguns cursos que criei
+      </p>
+    </div>
+
+    @if (loading()) {
+      <div class="loading">Carregando cursos...</div>
+    } @else {
+      <div class="courses-grid">
+        @for (course of courses(); track course.ID) {
+          <app-course-card [course]="course" />
+        }
+      </div>
+    }
+  </div>
+</section>

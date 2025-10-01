@@ -2,28 +2,21 @@
 	{
 		"ID": 1,
 		"name": "Desenvolvimento Web com Django: Sistemas Corporativos",
-		"image": "/img-3.jpg",
+		"image": "https://i.ibb.co/d0ZKFR3r/djangocurso1-sistema.png",
 		"label": "Django",
-		"description": "Desenvolva um projeto com Python/Django, HTML e CSS. De os primeiros passos para desenvolvimento de sistema Web.",
-		"path1": "https://youtu.be/RXNQFz220wI",
+		"tags": "Python, Django",
+		"description": "Desenvolva um projeto com Python/Django, HTML e CSS. Dê os primeiros passos para desenvolvimento de sistema Web.",
+		"path1": "https://www.youtube.com/watch?v=qCxf6SVd7_c",
 		"path2": "https://www.udemy.com/course/pythondjango-desenvolvimento-sistema-de-faq-autoatendimento-empresas/?referralCode=12A76F6BB2870DA9C11A"
 	},
-  {
-		"ID": 1,
-		"name": "Desenvolvendo um Sistema de Controle de Aluguéis com Django",
-		"image": "/img-9.jpg",
-		"label": "Django",
-		"description": "Iniciando no desenvolvimento Web construindo um Sistema de Controle de Aluguéis com Python, Django e Bootstrap.",
-		"path1": "https://www.youtube.com/watch?v=Mgd-WfzhlUE&list=PL2bJNatYYfGRxFSP1aEUNqaR_ZTqrDO_h",
-		"path2": "https://www.udemy.com/course/pythondjango-desenvolvimento-sistema-de-alugueis"
-	},
-  {
-		"ID": 1,
-		"name": "Construindo uma Lista de Tarefas Dinâmica com Django e AJAX",
-		"image": "/img-10.jpg",
-		"label": "Django",
-		"description": "Construa sua Lista de Tarefas Dinâmica: Explorando Django e AJAX para Desenvolvimento Web Interativo.",
-		"path1": "https://www.youtube.com/watch?v=MvVxA45KBeI&list=PL2bJNatYYfGSSXCkqOdVvIx4pI3Bcxjt5",
-		"path2": "https://www.udemy.com/course/pythondjango-construindo-uma-lista-de-tarefas-dinamica-com-ajax"
+	{
+		"ID": 2,
+		"name": "Desenvolvimento Web Básico: JavaScript, jQuery e AJAX em Ação",
+		"image": "https://i.ibb.co/xKcVPttv/curso-javascript.jpg",
+		"label": "JavaScript", 
+		"tags": "JavaScript, jQuery, AJAX",
+		"description": "Aprenda JavaScript, jQuery e AJAX do zero. Crie páginas web interativas e dinâmicas com comunicação assíncrona com o servidor.",
+		"path1": "https://youtu.be/OQdX-CDRvRU?list=PL2bJNatYYfGTHTOv1_ivxXa2C_zLp_MW6",
+		"path2": "https://www.udemy.com/course/fundamentos-essenciais-javascript-jquery-e-ajax/?referralCode=E670B179DAD083D8D5F1"
 	}
 ]
