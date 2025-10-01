@@ -20,11 +20,33 @@
 
 .logo {
   text-decoration: none;
+  transition: transform 0.3s ease;
   
   .logo-text {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--accent-color);
+    position: relative;
+    display: inline-block;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0;
+      height: 3px;
+      background: var(--accent-color);
+      transition: width 0.3s ease;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    
+    .logo-text::after {
+      width: 100%;
+    }
   }
 }
 
@@ -80,24 +102,63 @@
       border-radius: 6px;
       transition: all 0.3s ease;
       display: block;
+      position: relative;
+      overflow: hidden;
+
+      // Efeito de slide ao passar o mouse
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--accent-color);
+        transition: width 0.3s ease;
+      }
 
       &:hover {
         color: var(--accent-color);
-        background: var(--card-bg);
+        background: rgba(59, 60, 54, 0.05);
+        transform: translateY(-2px);
+        
+        &::before {
+          width: 100%;
+        }
+      }
+
+      &:active {
+        transform: translateY(0) scale(0.98);
       }
 
       &.active {
         color: var(--accent-color);
         font-weight: 600;
+        background: rgba(59, 60, 54, 0.08);
+        
+        &::before {
+          width: 100%;
+        }
       }
 
       &.contact-btn {
         background: var(--accent-color);
         color: white;
+        box-shadow: 0 2px 8px rgba(59, 60, 54, 0.2);
+
+        &::before {
+          display: none;
+        }
 
         &:hover {
           background: var(--accent-hover);
-          transform: translateY(-2px);
+          transform: translateY(-3px);
+          box-shadow: 0 4px 12px rgba(59, 60, 54, 0.3);
+        }
+
+        &:active {
+          transform: translateY(-1px) scale(0.98);
+          box-shadow: 0 2px 8px rgba(59, 60, 54, 0.2);
         }
       }
     }
