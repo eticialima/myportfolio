@@ -138,14 +138,14 @@
   animation: float 3s ease-in-out infinite;
 
   mat-icon {
-    width: 4rem;
-    height: 4rem;
-    font-size: 4rem;
+    width: 12rem;
+    height: 12rem;
+    font-size: 12rem;
   }
 
   &.card-1 {
-    top: 20%;
-    left: 10%;
+    top: -30%;
+    left: 0%;
     animation-delay: 0s;
     
     mat-icon {
@@ -154,7 +154,7 @@
   }
 
   &.card-2 {
-    top: 50%;
+    top: 0%;
     right: 10%;
     animation-delay: 0.5s;
     
@@ -164,8 +164,8 @@
   }
 
   &.card-3 {
-    bottom: 10%;
-    left: 30%;
+    bottom: -30%;
+    left:  20%;
     animation-delay: 1s;
     
     mat-icon {
