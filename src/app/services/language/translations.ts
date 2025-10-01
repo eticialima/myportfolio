@@ -15,7 +15,7 @@ export const translations: Record<string, Translation> = {
     home: {
       greeting: 'Olá, eu sou',
       name: 'Letícia Lima',
-      role: 'Developer Python',
+      role: 'Desenvolvedora Python',
       description: 'Transformando ideias em soluções digitais elegantes e eficientes. Especializada em Python, Django e desenvolvimento web moderno.',
       viewProjects: 'Ver Projetos',
       getInTouch: 'Entre em Contato',
