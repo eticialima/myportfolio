@@ -126,7 +126,7 @@
 		"path2": "https://www.udemy.com/course/clinica-veterinaria-sistema-de-agendamento-django-e-ionic/?referralCode=ADC7138A2178079EB41D"
 	},  
 	{
-		"ID": 8,
+		"ID": 0,
 		"name": {
 			"pt": "Django Sistema Inteligente QA Forum",
 			"en": "Django Smart QA Forum System",
@@ -144,7 +144,7 @@
 		"path2": "https://eticia.gumroad.com/l/django-system-qa-forum-app"
 	},
 	{
-		"ID": 9,
+		"ID": 0,
 		"name": {
 			"pt": "Django Blog Portal Completo",
 			"en": "Django Complete Blog Portal",
@@ -162,7 +162,7 @@
 		"path2": "https://eticia.gumroad.com/l/django-system-portal-blog-app"
 	},
 	{
-		"ID": 10,
+		"ID": 0,
 		"name": {
 			"pt": "Sistema de Comentários com AJAX",
 			"en": "Comments System with AJAX",
@@ -180,7 +180,7 @@
 		"path2": "https://eticia.gumroad.com/l/django-comments-in-ajax-app"
 	},
 	{
-		"ID": 11,
+		"ID": 0,
 		"name": {
 			"pt": "Gerenciador de Manuais de Carros",
 			"en": "Car Manuals Manager",
@@ -198,7 +198,7 @@
 		"path2": "https://eticia.gumroad.com/l/django-system-car-manuals-app"
 	},
 	{
-		"ID": 12,
+		"ID": 0,
 		"name": {
 			"pt": "Sistema Mybook - Cadastro Avançado",
 			"en": "Mybook System - Advanced Registration",
@@ -216,7 +216,7 @@
 		"path2": "https://eticia.gumroad.com/l/django-system-mybook-app"
 	},
 	{
-		"ID": 13,
+		"ID": 0,
 		"name": {
 			"pt": "Wix Velo - Menu com Filtros",
 			"en": "Wix Velo - Menu with Filters",
@@ -234,7 +234,7 @@
 		"path2": "https://eticia.gumroad.com/l/wix-velo-menu-tags-filters-code"
 	},
 	{
-		"ID": 14,
+		"ID": 0,
 		"name": {
 			"pt": "Formulário Customizado Inteligente",
 			"en": "Smart Custom Form",
