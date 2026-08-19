@@ -1,5 +1,5 @@
 <div class="project-card">
-  <div class="project-image">
+  <!-- <div class="project-image">
     <img [src]="project().image" [alt]="getProjectName()" loading="lazy" />
     <div class="project-overlay">
       <div class="project-links">
@@ -15,9 +15,25 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="project-content">
-    <div class="project-label">{{ project().label }}</div>
+
+    <div class="project-content-header">
+
+      <div class="project-label">{{ project().label }}</div>
+
+      <div class="">
+          @if (project().path1.includes('youtube') || project().path1.includes('youtu.be')) {
+            <a [href]="project().path1" target="_blank" rel="noopener" class="btnlabel">
+              <span class="material-icons">play_circle</span>
+            </a>
+          }
+          <a [href]="project().path2" target="_blank" rel="noopener" class="btnlabel">
+            <span class="material-icons">open_in_new</span>
+        </a>
+        </div>
+    </div>
+
     <h3>{{ getProjectName() }}</h3>
     <p>{{ getProjectDescription() }}</p>
     @if (getTags().length > 0) {

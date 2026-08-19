@@ -105,6 +105,19 @@
   flex-direction: column;
 }
 
+.project-content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+
+  h3 {
+    font-size: 1.3rem;
+    margin: 0;
+    color: var(--text-primary);
+  }
+}
+
 .project-label {
   display: inline-block;
   padding: 0.25rem 0.75rem;
@@ -117,6 +130,17 @@
   letter-spacing: 0.5px;
   margin-bottom: 0.75rem;
   width: fit-content;
+}
+
+.btnlabel {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  color: var(--accent-color);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .project-content h3 {
