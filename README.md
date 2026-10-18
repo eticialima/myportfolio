@@ -115,3 +115,19 @@ To generate the production build:
 ```bash
 npm run build:prod
 ```
+
+### Publicar em leticia.dev
+
+O site é servido por Nginx em um container Docker no servidor `gamigami`.
+O Caddy existente faz o proxy HTTPS para o container. No Windows, com Docker
+Desktop, acesso SSH ao servidor e login no Docker Hub (`docker login`), execute:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\deploy\deploy.ps1
+```
+
+O script cria uma imagem versionada em `eticia/myportfolio` no Docker Hub,
+atualiza `/var/projects/leticia-portfolio` no servidor e configura o Caddy
+na primeira publicação. Para acessar o domínio, o DNS da Hostinger precisa
+ter um registro A para `@` apontando para `206.81.4.132`; o registro `www`
+pode ser um CNAME para `leticia.dev`.

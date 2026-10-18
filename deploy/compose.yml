@@ -1,0 +1,15 @@
+name: leticia-portfolio
+
+services:
+  web:
+    image: ${PORTFOLIO_IMAGE:-eticia/myportfolio:latest}
+    restart: unless-stopped
+    networks:
+      water_ready:
+        aliases:
+          - leticia-portfolio-web
+
+networks:
+  water_ready:
+    external: true
+    name: water-ready_default
