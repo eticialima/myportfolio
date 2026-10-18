@@ -151,6 +151,12 @@
   color: var(--text-primary);
   font-size: 0.75rem;
   font-weight: 600;
+
+  &.premium {
+    border-color: #d8bb76;
+    background: #fff4d8;
+    color: #684b12;
+  }
 }
 
 .btnlabel {

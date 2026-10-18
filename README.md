@@ -103,6 +103,7 @@ The Projects page reads `src/assets/json/projects.json`. Each item needs a uniqu
 - `system` for an application with a defined workflow;
 - `example` for a tutorial or focused code example;
 - `academic` for an academic project (shown with Systems in the filter).
+- `premium` for a private system presented through a public case study.
 
 The order of items in the JSON file is the order shown on the page. `name` and
 `description` contain `pt`, `en`, and `es` text; `label` and `tags` describe the

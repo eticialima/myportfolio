@@ -55,12 +55,14 @@ export const translations: Record<string, Translation> = {
       filters: {
         all: 'Todos',
         systems: 'Sistemas',
-        examples: 'Tutoriais e exemplos'
+        examples: 'Tutoriais e exemplos',
+        premium: 'Premium'
       },
       types: {
         system: 'Sistema',
         example: 'Tutorial / exemplo',
-        academic: 'Acadêmico'
+        academic: 'Acadêmico',
+        premium: 'Premium'
       }
     },
     caseStudy: {
@@ -203,12 +205,14 @@ export const translations: Record<string, Translation> = {
       filters: {
         all: 'All',
         systems: 'Systems',
-        examples: 'Tutorials and examples'
+        examples: 'Tutorials and examples',
+        premium: 'Premium'
       },
       types: {
         system: 'System',
         example: 'Tutorial / example',
-        academic: 'Academic'
+        academic: 'Academic',
+        premium: 'Premium'
       }
     },
     caseStudy: {
@@ -351,12 +355,14 @@ export const translations: Record<string, Translation> = {
       filters: {
         all: 'Todos',
         systems: 'Sistemas',
-        examples: 'Tutoriales y ejemplos'
+        examples: 'Tutoriales y ejemplos',
+        premium: 'Premium'
       },
       types: {
         system: 'Sistema',
         example: 'Tutorial / ejemplo',
-        academic: 'Académico'
+        academic: 'Académico',
+        premium: 'Premium'
       }
     },
     caseStudy: {

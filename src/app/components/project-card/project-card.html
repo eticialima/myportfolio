@@ -10,7 +10,7 @@
           </a>
         }
         <a [href]="project().path2" target="_blank" rel="noopener" class="link-btn demo">
-          <span class="material-icons">open_in_new</span>
+              <span class="material-icons">open_in_new</span>
           <span>Ver Projeto</span>
         </a>
       </div>
@@ -22,7 +22,7 @@
 
       <div class="project-badges">
         <div class="project-label">{{ project().label }}</div>
-        <div class="project-type">{{ ('projects.types.' + project().category) | translate }}</div>
+        <div class="project-type" [class.premium]="project().category === 'premium'">{{ ('projects.types.' + project().category) | translate }}</div>
       </div>
 
       <div class="">
@@ -32,7 +32,7 @@
             </a>
           }
           <a [href]="project().path2" [attr.target]="project().path2.startsWith('http') ? '_blank' : null" [attr.rel]="project().path2.startsWith('http') ? 'noopener noreferrer' : null" class="btnlabel" [attr.aria-label]="getProjectName() + ' - ' + project().path2">
-            <span class="material-icons">open_in_new</span>
+            <span class="material-icons">{{ project().path2.startsWith('/case-studies/') ? 'arrow_forward' : 'open_in_new' }}</span>
               @if (project().path2.startsWith('/case-studies/')) {
                 <span>{{ 'projects.viewCase' | translate }}</span>
               }

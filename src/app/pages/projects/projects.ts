@@ -3,7 +3,7 @@ import { ProjectCard } from '../../components/project-card/project-card';
 import { Api, Project } from '../../services/api/api';
 import { TranslatePipe } from '../../services/language/translate.pipe';
 
-type ProjectFilter = 'all' | 'systems' | 'examples';
+type ProjectFilter = 'all' | 'systems' | 'examples' | 'premium';
 
 @Component({
   selector: 'app-projects',
@@ -21,13 +21,17 @@ export class ProjectsPage implements OnInit {
     if (filter === 'systems') {
       return this.projects().filter(project => project.category === 'system' || project.category === 'academic');
     }
+    if (filter === 'premium') {
+      return this.projects().filter(project => project.category === 'premium');
+    }
     return this.projects().filter(project => project.category === 'example');
   });
 
   filters: { value: ProjectFilter; label: string }[] = [
     { value: 'all', label: 'projects.filters.all' },
     { value: 'systems', label: 'projects.filters.systems' },
-    { value: 'examples', label: 'projects.filters.examples' }
+    { value: 'examples', label: 'projects.filters.examples' },
+    { value: 'premium', label: 'projects.filters.premium' }
   ];
 
   constructor(private api: Api) {}

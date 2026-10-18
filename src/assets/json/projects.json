@@ -1,7 +1,7 @@
 [
 	{
 		"ID": 19,
-		"category": "system",
+		"category": "premium",
 		"name": {"pt": "WFX Software", "en": "WFX Software", "es": "WFX Software"},
 		"image": "/case-studies/wfx-form-builder.png",
 		"label": "Workflow",
@@ -12,7 +12,7 @@
 	},
 	{
 		"ID": 18,
-		"category": "system",
+		"category": "premium",
 		"name": {"pt": "Kanbano", "en": "Kanbano", "es": "Kanbano"},
 		"image": "/case-studies/kanbano-board.png",
 		"label": "Kanban",
@@ -23,7 +23,7 @@
 	},
 	{
 		"ID": 17,
-		"category": "system",
+		"category": "premium",
 		"name": {"pt": "Storage Explorer", "en": "Storage Explorer", "es": "Storage Explorer"},
 		"image": "/case-studies/storage-admin.png",
 		"label": "Storage",
@@ -34,7 +34,7 @@
 	},
 	{
 		"ID": 16,
-		"category": "system",
+		"category": "premium",
 		"name": {"pt": "VendasOnline", "en": "VendasOnline", "es": "VendasOnline"},
 		"image": "",
 		"label": "Analytics",
