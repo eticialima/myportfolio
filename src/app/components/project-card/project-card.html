@@ -31,8 +31,11 @@
               <span class="material-icons">{{ project().path1.includes('youtube') || project().path1.includes('youtu.be') ? 'play_circle' : project().path1.includes('github.com') ? 'code' : 'open_in_new' }}</span>
             </a>
           }
-          <a [href]="project().path2" target="_blank" rel="noopener noreferrer" class="btnlabel" [attr.aria-label]="getProjectName() + ' - ' + project().path2">
+          <a [href]="project().path2" [attr.target]="project().path2.startsWith('http') ? '_blank' : null" [attr.rel]="project().path2.startsWith('http') ? 'noopener noreferrer' : null" class="btnlabel" [attr.aria-label]="getProjectName() + ' - ' + project().path2">
             <span class="material-icons">open_in_new</span>
+              @if (project().path2.startsWith('/case-studies/')) {
+                <span>{{ 'projects.viewCase' | translate }}</span>
+              }
         </a>
         </div>
     </div>

@@ -1,0 +1,61 @@
+@if (study(); as item) {
+  <main class="case-study">
+    <div class="container">
+      <a routerLink="/projects" class="back-link">
+        <span class="material-icons" aria-hidden="true">arrow_back</span>
+        {{ 'caseStudy.back' | translate }}
+      </a>
+
+      <header class="case-hero">
+        <span class="eyebrow">{{ 'caseStudy.eyebrow' | translate }}</span>
+        <h1>{{ item.title }}</h1>
+        <p>{{ localized(item.summary) }}</p>
+        <div class="tech-list" [attr.aria-label]="'caseStudy.technologies' | translate">
+          @for (technology of item.technologies; track technology) {
+            <span>{{ technology }}</span>
+          }
+        </div>
+      </header>
+
+      <section class="case-section">
+        <h2>{{ 'caseStudy.overview' | translate }}</h2>
+        <p>{{ localized(item.context) }}</p>
+      </section>
+
+      <section class="case-section">
+        <h2>{{ 'caseStudy.features' | translate }}</h2>
+        <ul class="feature-list">
+          @for (feature of item.features; track $index) {
+            <li>{{ localized(feature) }}</li>
+          }
+        </ul>
+      </section>
+
+      @if (item.images.length) {
+        <section class="case-section">
+          <h2>{{ 'caseStudy.preview' | translate }}</h2>
+          <div class="preview-grid">
+            @for (picture of item.images; track picture.src) {
+              <figure>
+                <img [src]="picture.src" [alt]="localized(picture.caption)" loading="lazy" />
+                <figcaption>{{ localized(picture.caption) }}</figcaption>
+              </figure>
+            }
+          </div>
+        </section>
+      }
+
+      <section class="case-cta">
+        <p>{{ 'caseStudy.contactText' | translate }}</p>
+        <a routerLink="/contact">{{ 'caseStudy.contact' | translate }}</a>
+      </section>
+    </div>
+  </main>
+} @else {
+  <main class="case-study">
+    <div class="container not-found">
+      <h1>{{ 'caseStudy.notFound' | translate }}</h1>
+      <a routerLink="/projects">{{ 'caseStudy.back' | translate }}</a>
+    </div>
+  </main>
+}

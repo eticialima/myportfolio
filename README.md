@@ -108,6 +108,12 @@ The order of items in the JSON file is the order shown on the page. `name` and
 `description` contain `pt`, `en`, and `es` text; `label` and `tags` describe the
 technologies. Edit the JSON and rebuild the site to publish content changes.
 
+Private software showcases use a local `/case-studies/<slug>` link in `path2`.
+Their public summaries, feature lists, and image captions live in
+`src/app/data/case-studies.ts`; approved screenshots live in
+`public/case-studies/`. The source repositories stay private and are not linked
+from the public pages.
+
 ## Build and deploy
 
 To generate the production build:

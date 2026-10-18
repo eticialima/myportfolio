@@ -8,6 +8,8 @@ export const routes: Routes = [
 
   { path: 'projects', loadComponent: () => import('./pages/projects/projects').then(m => m.ProjectsPage) },
 
+  { path: 'case-studies/:slug', loadComponent: () => import('./pages/case-study/case-study').then(m => m.CaseStudyPage) },
+
   { path: 'courses', loadComponent: () => import('./pages/courses/courses').then(m => m.CoursesPage) },
 
   { path: 'tcc', loadComponent: () => import('./pages/tcc/tcc').then(m => m.TccPage) },

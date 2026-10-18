@@ -37,7 +37,7 @@ try {
         Remove-Item -LiteralPath $tempEnv -ErrorAction SilentlyContinue
     }
 
-    ssh $SshHost 'cd /var/projects/leticia-portfolio && docker compose -f compose.yml pull && docker compose -f compose.yml up -d && sh setup-caddy.sh'
+    ssh $SshHost 'cd /var/projects/leticia-portfolio && docker compose -f compose.yml pull && docker compose -f compose.yml up -d && sh setup-caddy.sh && docker exec water-ready-caddy-1 wget -q -O /dev/null http://leticia-portfolio-web/'
     if ($LASTEXITCODE -ne 0) { throw 'Falha ao iniciar o site no servidor.' }
     Write-Host "Publicado: $versionedImage"
 } finally {

@@ -49,6 +49,7 @@ export const translations: Record<string, Translation> = {
       title: 'Projetos e exemplos',
       subtitle: 'Explore sistemas, tutoriais e exemplos de código que desenvolvi.',
       loading: 'Carregando projetos...',
+      viewCase: 'Ver detalhes',
       filterLabel: 'Filtrar projetos por tipo',
       empty: 'Nenhum projeto nesta categoria.',
       filters: {
@@ -61,6 +62,17 @@ export const translations: Record<string, Translation> = {
         example: 'Tutorial / exemplo',
         academic: 'Acadêmico'
       }
+    },
+    caseStudy: {
+      back: 'Voltar aos projetos',
+      eyebrow: 'Projeto em destaque',
+      technologies: 'Tecnologias utilizadas',
+      overview: 'Visão geral',
+      features: 'Funcionalidades',
+      preview: 'Prévia do sistema',
+      contactText: 'Quer conversar sobre este projeto ou uma solução semelhante?',
+      contact: 'Entre em contato',
+      notFound: 'Projeto não encontrado'
     },
     courses: {
       title: 'Cursos e Certificações',
@@ -185,6 +197,7 @@ export const translations: Record<string, Translation> = {
       title: 'Projects and examples',
       subtitle: 'Explore systems, tutorials, and code examples I have built.',
       loading: 'Loading projects...',
+      viewCase: 'View details',
       filterLabel: 'Filter projects by type',
       empty: 'No projects in this category.',
       filters: {
@@ -197,6 +210,17 @@ export const translations: Record<string, Translation> = {
         example: 'Tutorial / example',
         academic: 'Academic'
       }
+    },
+    caseStudy: {
+      back: 'Back to projects',
+      eyebrow: 'Featured project',
+      technologies: 'Technologies used',
+      overview: 'Overview',
+      features: 'Features',
+      preview: 'System preview',
+      contactText: 'Want to discuss this project or a similar solution?',
+      contact: 'Get in touch',
+      notFound: 'Project not found'
     },
     courses: {
       title: 'Courses & Certifications',
@@ -321,6 +345,7 @@ export const translations: Record<string, Translation> = {
       title: 'Proyectos y ejemplos',
       subtitle: 'Explora sistemas, tutoriales y ejemplos de código que desarrollé.',
       loading: 'Cargando proyectos...',
+      viewCase: 'Ver detalles',
       filterLabel: 'Filtrar proyectos por tipo',
       empty: 'No hay proyectos en esta categoría.',
       filters: {
@@ -333,6 +358,17 @@ export const translations: Record<string, Translation> = {
         example: 'Tutorial / ejemplo',
         academic: 'Académico'
       }
+    },
+    caseStudy: {
+      back: 'Volver a proyectos',
+      eyebrow: 'Proyecto destacado',
+      technologies: 'Tecnologías utilizadas',
+      overview: 'Resumen',
+      features: 'Funciones',
+      preview: 'Vista previa del sistema',
+      contactText: '¿Quieres hablar sobre este proyecto o una solución similar?',
+      contact: 'Contáctame',
+      notFound: 'Proyecto no encontrado'
     },
     courses: {
       title: 'Cursos y Certificaciones',
