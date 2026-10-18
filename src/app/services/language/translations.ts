@@ -46,9 +46,21 @@ export const translations: Record<string, Translation> = {
       skills: 'Habilidades'
     },
     projects: {
-      title: 'Meus Projetos',
-      subtitle: 'Confira alguns dos projetos que desenvolvi ao longo da minha carreira',
-      loading: 'Carregando projetos...'
+      title: 'Projetos e exemplos',
+      subtitle: 'Explore sistemas, tutoriais e exemplos de código que desenvolvi.',
+      loading: 'Carregando projetos...',
+      filterLabel: 'Filtrar projetos por tipo',
+      empty: 'Nenhum projeto nesta categoria.',
+      filters: {
+        all: 'Todos',
+        systems: 'Sistemas',
+        examples: 'Tutoriais e exemplos'
+      },
+      types: {
+        system: 'Sistema',
+        example: 'Tutorial / exemplo',
+        academic: 'Acadêmico'
+      }
     },
     courses: {
       title: 'Cursos e Certificações',
@@ -170,9 +182,21 @@ export const translations: Record<string, Translation> = {
       skills: 'Skills'
     },
     projects: {
-      title: 'My Projects',
-      subtitle: 'Check out some of the projects I developed throughout my career',
-      loading: 'Loading projects...'
+      title: 'Projects and examples',
+      subtitle: 'Explore systems, tutorials, and code examples I have built.',
+      loading: 'Loading projects...',
+      filterLabel: 'Filter projects by type',
+      empty: 'No projects in this category.',
+      filters: {
+        all: 'All',
+        systems: 'Systems',
+        examples: 'Tutorials and examples'
+      },
+      types: {
+        system: 'System',
+        example: 'Tutorial / example',
+        academic: 'Academic'
+      }
     },
     courses: {
       title: 'Courses & Certifications',
@@ -294,9 +318,21 @@ export const translations: Record<string, Translation> = {
       skills: 'Habilidades'
     },
     projects: {
-      title: 'Mis Proyectos',
-      subtitle: 'Echa un vistazo a algunos de los proyectos que desarrollé a lo largo de mi carrera',
-      loading: 'Cargando proyectos...'
+      title: 'Proyectos y ejemplos',
+      subtitle: 'Explora sistemas, tutoriales y ejemplos de código que desarrollé.',
+      loading: 'Cargando proyectos...',
+      filterLabel: 'Filtrar proyectos por tipo',
+      empty: 'No hay proyectos en esta categoría.',
+      filters: {
+        all: 'Todos',
+        systems: 'Sistemas',
+        examples: 'Tutoriales y ejemplos'
+      },
+      types: {
+        system: 'Sistema',
+        example: 'Tutorial / ejemplo',
+        academic: 'Académico'
+      }
     },
     courses: {
       title: 'Cursos y Certificaciones',

@@ -1,6 +1,26 @@
 [
 	{
+		"ID": 15,
+		"category": "system",
+		"name": {
+			"pt": "GamiHub - Plataforma de Minijogos",
+			"en": "GamiHub - Mini Games Platform",
+			"es": "GamiHub - Plataforma de Minijuegos"
+		},
+		"image": "",
+		"label": "GamiHub",
+		"tags": "Angular, Django, Docker, PostgreSQL",
+		"description": {
+			"pt": "Plataforma demonstrativa com 12 jogos de lógica, interface Angular e API Django.",
+			"en": "Demo platform with 12 logic games, an Angular interface, and a Django API.",
+			"es": "Plataforma de demostración con 12 juegos de lógica, interfaz Angular y API Django."
+		},
+		"path1": "https://github.com/gamihub/gamigami",
+		"path2": "https://gamihub.leticia.dev"
+	},
+	{
 		"ID": 1,
+		"category": "academic",
 		"name": {
 			"pt": "TCC 2020 - Projeto conclusão de curso - Sistema de Reconhecimento Facial",
 			"en": "TCC 2020 - Final Project - Facial Recognition System",
@@ -19,6 +39,7 @@
 	},
 	{
 		"ID": 2,
+		"category": "example",
 		"name": {
 			"pt": "Blog Simples CRUD",
 			"en": "Simple CRUD Blog",
@@ -37,6 +58,7 @@
 	},
 	{
 		"ID": 3,
+		"category": "example",
 		"name": {
 			"pt": "Lista de Tarefas Dinâmica com Django e AJAX",
 			"en": "Dynamic Task List with Django and AJAX",
@@ -55,6 +77,7 @@
 	},
 	{
 		"ID": 4,
+		"category": "system",
 		"name": {
 			"pt": "Sistema de Controle de Aluguéis com Django",
 			"en": "Rental Control System with Django",
@@ -73,6 +96,7 @@
 	},
 	{
 		"ID": 5,
+		"category": "system",
 		"name": {
 			"pt": "Sistema de Sorveteria com Django + jQuery",
 			"en": "Ice Cream Shop System with Django + jQuery",
@@ -91,6 +115,7 @@
 	},
 	{
 		"ID": 6,
+		"category": "system",
 		"name": {
 			"pt": "Registro de Ponto - Reconhecimento Facial",
 			"en": "Time Clock - Facial Recognition",
@@ -109,6 +134,7 @@
 	},
 	{
 		"ID": 7,
+		"category": "system",
 		"name": {
 			"pt": "Clínica Veterinária - Sistema de Agendamento Django e Ionic",
 			"en": "Veterinary Clinic - Scheduling System Django and Ionic",
@@ -126,7 +152,8 @@
 		"path2": "https://www.udemy.com/course/clinica-veterinaria-sistema-de-agendamento-django-e-ionic/?referralCode=ADC7138A2178079EB41D"
 	},  
 	{
-		"ID": 0,
+		"ID": 8,
+		"category": "example",
 		"name": {
 			"pt": "Django Sistema Inteligente QA Forum",
 			"en": "Django Smart QA Forum System",
@@ -144,7 +171,8 @@
 		"path2": "https://eticia.gumroad.com/l/django-system-qa-forum-app"
 	},
 	{
-		"ID": 0,
+		"ID": 9,
+		"category": "example",
 		"name": {
 			"pt": "Django Blog Portal Completo",
 			"en": "Django Complete Blog Portal",
@@ -162,7 +190,8 @@
 		"path2": "https://eticia.gumroad.com/l/django-system-portal-blog-app"
 	},
 	{
-		"ID": 0,
+		"ID": 10,
+		"category": "example",
 		"name": {
 			"pt": "Sistema de Comentários com AJAX",
 			"en": "Comments System with AJAX",
@@ -180,7 +209,8 @@
 		"path2": "https://eticia.gumroad.com/l/django-comments-in-ajax-app"
 	},
 	{
-		"ID": 0,
+		"ID": 11,
+		"category": "example",
 		"name": {
 			"pt": "Gerenciador de Manuais de Carros",
 			"en": "Car Manuals Manager",
@@ -198,7 +228,8 @@
 		"path2": "https://eticia.gumroad.com/l/django-system-car-manuals-app"
 	},
 	{
-		"ID": 0,
+		"ID": 12,
+		"category": "example",
 		"name": {
 			"pt": "Sistema Mybook - Cadastro Avançado",
 			"en": "Mybook System - Advanced Registration",
@@ -216,7 +247,8 @@
 		"path2": "https://eticia.gumroad.com/l/django-system-mybook-app"
 	},
 	{
-		"ID": 0,
+		"ID": 13,
+		"category": "example",
 		"name": {
 			"pt": "Wix Velo - Menu com Filtros",
 			"en": "Wix Velo - Menu with Filters",
@@ -234,7 +266,8 @@
 		"path2": "https://eticia.gumroad.com/l/wix-velo-menu-tags-filters-code"
 	},
 	{
-		"ID": 0,
+		"ID": 14,
+		"category": "example",
 		"name": {
 			"pt": "Formulário Customizado Inteligente",
 			"en": "Smart Custom Form",

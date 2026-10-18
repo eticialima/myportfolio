@@ -11,11 +11,28 @@
     @if (loading()) {
       <div class="loading">{{ 'projects.loading' | translate }}</div>
     } @else {
-      <div class="projects-grid">
-        @for (project of projects(); track project.ID) {
-          <app-project-card [project]="project" />
+      <div class="project-filters" role="group" [attr.aria-label]="'projects.filterLabel' | translate">
+        @for (filter of filters; track filter.value) {
+          <button
+            type="button"
+            class="filter-button"
+            [class.active]="activeFilter() === filter.value"
+            [attr.aria-pressed]="activeFilter() === filter.value"
+            (click)="activeFilter.set(filter.value)">
+            {{ filter.label | translate }}
+          </button>
         }
       </div>
+
+      @if (filteredProjects().length) {
+        <div class="projects-grid">
+          @for (project of filteredProjects(); track project.ID) {
+            <app-project-card [project]="project" />
+          }
+        </div>
+      } @else {
+        <p class="empty-state">{{ 'projects.empty' | translate }}</p>
+      }
     }
   </div>
 </section>

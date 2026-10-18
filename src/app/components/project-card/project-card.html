@@ -20,15 +20,18 @@
 
     <div class="project-content-header">
 
-      <div class="project-label">{{ project().label }}</div>
+      <div class="project-badges">
+        <div class="project-label">{{ project().label }}</div>
+        <div class="project-type">{{ ('projects.types.' + project().category) | translate }}</div>
+      </div>
 
       <div class="">
-          @if (project().path1.includes('youtube') || project().path1.includes('youtu.be')) {
-            <a [href]="project().path1" target="_blank" rel="noopener" class="btnlabel">
-              <span class="material-icons">play_circle</span>
+          @if (project().path1 && project().path1 !== project().path2) {
+            <a [href]="project().path1" target="_blank" rel="noopener noreferrer" class="btnlabel" [attr.aria-label]="getProjectName() + ' - ' + project().path1">
+              <span class="material-icons">{{ project().path1.includes('youtube') || project().path1.includes('youtu.be') ? 'play_circle' : project().path1.includes('github.com') ? 'code' : 'open_in_new' }}</span>
             </a>
           }
-          <a [href]="project().path2" target="_blank" rel="noopener" class="btnlabel">
+          <a [href]="project().path2" target="_blank" rel="noopener noreferrer" class="btnlabel" [attr.aria-label]="getProjectName() + ' - ' + project().path2">
             <span class="material-icons">open_in_new</span>
         </a>
         </div>

@@ -1,10 +1,11 @@
 import { Component, input, inject, computed } from '@angular/core';
 import { Project } from '../../services/api/api';
 import { LanguageService } from '../../services/language/language.service';
+import { TranslatePipe } from '../../services/language/translate.pipe';
 
 @Component({
   selector: 'app-project-card',
-  imports: [],
+  imports: [TranslatePipe],
   templateUrl: './project-card.html',
   styleUrl: './project-card.scss'
 })

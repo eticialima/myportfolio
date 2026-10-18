@@ -95,6 +95,19 @@ doc/
 - Adjust text content in `src/app/services/language/translations.ts`
 - Configure EmailJS keys in `src/environments/`
 
+### Editing projects
+
+The Projects page reads `src/assets/json/projects.json`. Each item needs a unique
+`ID` and a `category`:
+
+- `system` for an application with a defined workflow;
+- `example` for a tutorial or focused code example;
+- `academic` for an academic project (shown with Systems in the filter).
+
+The order of items in the JSON file is the order shown on the page. `name` and
+`description` contain `pt`, `en`, and `es` text; `label` and `tags` describe the
+technologies. Edit the JSON and rebuild the site to publish content changes.
+
 ## Build and deploy
 
 To generate the production build:
