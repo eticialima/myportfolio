@@ -11,39 +11,6 @@
 		"path2": "/case-studies/wfx-software"
 	},
 	{
-		"ID": 18,
-		"category": "premium",
-		"name": {"pt": "Kanbano", "en": "Kanbano", "es": "Kanbano"},
-		"image": "/case-studies/kanbano-board.png",
-		"label": "Kanban",
-		"tags": "Angular, Django Channels, WebSockets",
-		"description": {"pt": "Quadros Kanban colaborativos com sincronização em tempo real.", "en": "Collaborative Kanban boards with real-time updates.", "es": "Tableros Kanban colaborativos con actualizaciones en tiempo real."},
-		"path1": "",
-		"path2": "/case-studies/kanbano"
-	},
-	{
-		"ID": 17,
-		"category": "premium",
-		"name": {"pt": "Storage Explorer", "en": "Storage Explorer", "es": "Storage Explorer"},
-		"image": "/case-studies/storage-admin.png",
-		"label": "Storage",
-		"tags": "Angular, Go, PostgreSQL, Docker",
-		"description": {"pt": "Gerenciamento de arquivos com painel administrativo, CDN e API.", "en": "File management with an admin dashboard, CDN, and API.", "es": "Gestión de archivos con panel administrativo, CDN y API."},
-		"path1": "",
-		"path2": "/case-studies/storage-explorer"
-	},
-	{
-		"ID": 16,
-		"category": "premium",
-		"name": {"pt": "VendasOnline", "en": "VendasOnline", "es": "VendasOnline"},
-		"image": "",
-		"label": "Analytics",
-		"tags": "Angular, Django, Meta Ads, ClickBank",
-		"description": {"pt": "Painel de análise de campanhas, gastos e comissões afiliadas.", "en": "Dashboard for campaigns, ad spend, and affiliate commissions.", "es": "Panel para campañas, gastos y comisiones de afiliados."},
-		"path1": "",
-		"path2": "/case-studies/vendas-online"
-	},
-	{
 		"ID": 15,
 		"category": "system",
 		"name": {
